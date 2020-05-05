@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F429VETx
+D ARM Cortex-M4 MCU, 512KB flash, 192KB RAM, 180MHz, 1.8-3.6V, 82 GPIO, LQFP-100 14x14mm. Ref. Man : RM0090
+K ARM Cortex-M4 STM32F4 STM32F429/439 (DS: https://www.st.com/resource/en/datasheet/stm32f429ng.pdf)
+F https://www.st.com/resource/en/datasheet/stm32f429ng.pdf
+$ENDCMP
+#
+$CMP STM32F429VGTx
+D ARM Cortex-M4 MCU, 1024KB flash, 192KB RAM, 180MHz, 1.8-3.6V, 82 GPIO, LQFP-100 14x14mm. Ref. Man : RM0090
+K ARM Cortex-M4 STM32F4 STM32F429/439 (DS: https://www.st.com/resource/en/datasheet/stm32f429ng.pdf)
+F https://www.st.com/resource/en/datasheet/stm32f429ng.pdf
+$ENDCMP
+#
+$CMP STM32F429VITx
+D ARM Cortex-M4 MCU, 2048KB flash, 192KB RAM, 180MHz, 1.8-3.6V, 82 GPIO, LQFP-100 14x14mm. Ref. Man : RM0090
+K ARM Cortex-M4 STM32F4 STM32F429/439 (DS: https://www.st.com/resource/en/datasheet/stm32f429ng.pdf)
+F https://www.st.com/resource/en/datasheet/stm32f429ng.pdf
+$ENDCMP
+#
+#End Doc Library

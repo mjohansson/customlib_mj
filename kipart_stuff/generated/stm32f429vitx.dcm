@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F429VITx
+D ARM Cortex-M4 MCU, 2048KB flash, 192KB RAM, 180MHz, 1.8-3.6V, 82 GPIO, LQFP-100. RM0090 Ref.man : https://www.st.com/resource/en/reference_manual/dm00031020-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
+K ARM Cortex-M4 STM32F4 STM32F429/439
+F https://www.st.com/resource/en/datasheet/stm32f429ng.pdf
+$ENDCMP
+#
+#End Doc Library
