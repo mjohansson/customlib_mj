@@ -1,0 +1,19 @@
+(module L78xx_D2PAK (layer F.Cu) (tedit 585702AF)
+  (descr www.st.com/resource/en/datasheet/l78.pdf)
+  (tags "78xx D2PAK")
+  (solder_mask_margin 0.1)
+  (fp_text reference U301 (at -4.5 -6) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value L7805 (at 0 6.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 2 smd rect (at 0 0) (size 12.2 9.75) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -2.54 10.275) (size 1.6 3.5) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2.54 10.275) (size 1.6 3.5) (layers F.Cu F.Paste F.Mask))
+  (model ledmatrix.3dshapes/d2pak_to263.wrl
+    (offset (xyz 0 -2.031999969482422 2.539999961853027))
+    (scale (xyz 0.393701 0.393701 0.393701))
+    (rotate (xyz -90 0 0))
+  )
+)

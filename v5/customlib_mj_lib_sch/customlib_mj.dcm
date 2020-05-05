@@ -1,0 +1,566 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +VDC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP 74980104400
+D WE-RJ45 10/100-T LAN Integrated magnetics Through-hole connector Dual bi-color LED
+K Würth RJ45 Ethernet LAN Integrated Transformer Green/Yellow LED
+F https://www.we-online.com/catalog/datasheet/74980104400.pdf
+$ENDCMP
+#
+$CMP 74HC1G125
+D 3-state, 1-bit bus buffer/line driver
+F https://lcsc.com/product-detail/74-Series_Nexperia_74HC1G125GV-125_74HC1G125GV-125_C152728.html
+$ENDCMP
+#
+$CMP 74HC595
+D 8-bit shift register with 3-state output registers
+K 2V - 6V, ±6mA output drive, TSSOP (PW) / SOIC(D) / DIP (N)
+F http://www.ti.com/lit/gpn/sn74hc595
+$ENDCMP
+#
+$CMP 74LVC1G157
+D 74-Series Single 2-to-1 multiplexer, 1.65V-5.5V, 24mA, 5V-tolerant, Schmitt-trigger inputs, tpd 3ns typ
+K LCSC:C135822 SC70-6(SOT-363) single 2-input mux
+F https://lcsc.com/product-detail/74-Series_NXP_74LVC1G157GW-125_74LVC1G157GW-125_C135822.html
+$ENDCMP
+#
+$CMP 74xxT245
+D Octal Bidirectional Transceiver with 3-STATE inputs/outputs. HCT:6mA/pin; ACT:24mA/pin; ABT:+64/-32mA
+K Octal buffer line-driver tranceiver
+F https://www.mouser.com/ds/2/149/74ACT245-1006572.pdf
+$ENDCMP
+#
+$CMP ABMM2
+D Abracon SMD Crystal, 6.0 x 3.6 x 1.2 mm (8.0MHz), 20ppm, 18pF
+K SMD crystal, ABMM2, 6.0x3.6mm
+F http://www.abracon.com/Resonators/ABMM2.pdf
+$ENDCMP
+#
+$CMP ALPS-EC11E18244A5
+D ALPS Rotary encoder w pushbtn, vertical, flatten shaft, 12x12x4.5(24.5)mm, 36 detents, through hole
+K rotary encoder, vertical
+F https://lcsc.com/product-detail/Others_ALPS-Electric_EC11E18244A5_ALPS-Electric-EC11E18244A5_C255515.html
+$ENDCMP
+#
+$CMP AMS1117-3.3
+D 800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-5.0
+D 800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AO4803A
+D Alpha&Omega Dual P-Channel MOSFET, 30V, 5A, 2W, 75mOhm, -2,5V Vgs(th), LCSC:C115832
+K PFET, 30V, 5A, 2W, 75mOhm, -2,5V Vgs(th), LCSC:C115832
+F https://lcsc.com/product-detail/MOSFET_AOS_AO4803A_AO4803A_C115832.html
+$ENDCMP
+#
+$CMP ArduinoNanoV3
+D Arduino Nano v3 module (ATmega328p), 5V, 16MHz, mini-USB
+K Arduino Nano, ATmega328, ATmega328P, DIP-30, mini-USB
+$ENDCMP
+#
+$CMP BAT54S
+D schottky barrier diode
+K schottky diode
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP BU9796AMUV
+D Low power, no components 1/4 multiplexed, 12-segment LCD driver
+K LCD driver, 1/4 MUX, 1/3 or 1/2 bias
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/driver/lcd_segment/bu9796axxx-e.pdf
+$ENDCMP
+#
+$CMP Buzzer_KLJ1325
+D KLJ-1325 13x13x2.5mm Piezo sounder, no driver
+K Piezo beeper buzzer SMD
+F https://lcsc.com/product-detail/Buzzers_KELIKING-KLJ-1325_C201043.html
+$ENDCMP
+#
+$CMP Buzzer_ZL-YDW12055
+D ZLFY ZL-YDW12055-4005PA-6-5 12.5x5.5mm Piezo sounder, no driver
+K Piezo beeper buzzer throughhole
+F https://lcsc.com/product-detail/Buzzers_ZLFY-ZL-YDW12055-4005PA-6-5_C219731.html
+$ENDCMP
+#
+$CMP CH340G
+D CH340G full-speed USB-to-serial converter 50-2Mbps 5V or 3.3V
+K USB 2.0, serial, UART, flow control, full duplex, FIFO, SO-16
+$ENDCMP
+#
+$CMP DCF77
+D DCF77 receiver module (Conrad 64-11-38)
+K DCF77, module
+F https://www.conrad.se/DCF-mottagare-modul-641138-C-Control.htm
+$ENDCMP
+#
+$CMP DMG1012T
+D MOSFET N-Ch, Vds 20V, 630mA, SOT-523, Rds_on <0.5 Ohm, Vgs +/-6V, Vgs_th 0.5V .. 1V
+K NMOS n-mos n-mosfet transistor
+F https://www.diodes.com/assets/Datasheets/ds31783.pdf
+$ENDCMP
+#
+$CMP DMG1013T
+D MOSFET P-Ch Vds -20V, -460mA, SOT-523, Rds_on <0.9 Ohm, Vgs +/-6V, Vgs_th -0.5V .. -1V
+K pmos p-mos p-mosfet transistor
+F https://www.diodes.com/assets/Datasheets/ds31784.pdf
+$ENDCMP
+#
+$CMP DS24W
+D Schottky Barrier Diodes (SBD), 2A, 40V, 0.55V@2A, SOD-123F, RoHS
+K DS24W SOD-123F LCSC:C108810
+F https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_DS24W_C108810.html
+$ENDCMP
+#
+$CMP DS3231_Module
+D DS3231 RTC module with CR2032 battery backup
+K RTC, DS3231, I2C, CR2032, Battery backup
+$ENDCMP
+#
+$CMP D_Small
+D Diode, small symbol
+K diode
+$ENDCMP
+#
+$CMP DoseLCD-1
+D Letcat Dosecnt display, 14x7mm, 4x 7-seg digits
+$ENDCMP
+#
+$CMP DoseLCD-frame
+D Metal frame for DoseLCD, solder tabs in corners
+K DoseLCD metal frame
+$ENDCMP
+#
+$CMP EGND
+D Power symbol creates a global label with name "EGND" , Ethernet jack gnd
+K power-flag
+$ENDCMP
+#
+$CMP Earth_Protective
+D Power flag, protective earth
+K power-flag ground gnd clean
+F ~
+$ENDCMP
+#
+$CMP Ferrite_Bead_Small
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP GNDA
+D Power flag, analog ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDD
+D Power flag, digital ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDPWR
+D Power flag, power ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDREF
+D Power flag, reference supply ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDS
+D Power flag, signal ground
+K power-flag
+$ENDCMP
+#
+$CMP HT42B534
+D USB to UART Bridge (MSOP-10)
+$ENDCMP
+#
+$CMP Hole3.2mm
+D Mounting hole, none-plated, 3.2mm
+K Mounting hole 3.2mm
+$ENDCMP
+#
+$CMP Hole5.3mm
+D Mounting hole, none-plated, 3.2mm
+K Mounting hole 3.2mm
+$ENDCMP
+#
+$CMP IP101GA
+D Single port 10/100 MII/RMII Fast Ethernet Phy transceiver, Auto MDI/MDIX, 3.3V, 25/50MHz flexible clock source, integrated 49.9Ohm termination resistors. 7X7mm LQFP-48 0.5mm
+K MII/RMII 10/100 Ethernet PHY LQFP-48 Auto MDI/MDIX WOL+
+F http://www.bdtic.com/DataSheet/ICplus/IP101G_DS_R01_20121224.pdf
+$ENDCMP
+#
+$CMP IRF7329pbF
+D Dual P-ch MOSFET, ultra-low on resistance, 12V, 9A
+K P-FET, 12V, 9A, SO-8
+F http://www.infineon.com/dgdl/irf7329pbf.pdf?fileId=5546d462533600a4015355f617841b55
+$ENDCMP
+#
+$CMP K2-1187SQ
+D Tactile Switches, SPST-NO, 5.2x5.2x2.0mm, 50mA @ 12VDC, 100k cycles
+K Korean Hroparts Elec. tactile pushbutton, 5.2x5.2x2 mm, K2-1187SQ-D4SW-06
+F https://lcsc.com/product-detail/Tactile-Switches_Korean-Hroparts-Elec-K2-1187SQ-D4SW-06_C223821.html
+$ENDCMP
+#
+$CMP KLD-0202-A
+D 6.4/2.0mm DC barrel jack, 3.5A/24V (5A/20V)
+K KYCON 2.0mm DC jack
+F http://www.mouser.com/ds/2/222/kld-0202-a%20%20b-299280.pdf
+$ENDCMP
+#
+$CMP LED_3528_RGB-CA
+D RGB chip LED PLCC-4, SMD 3.5 x 2.8 x 1.9 mm
+K Multi-color RGB LED, SMD, 3528 PLCC-4
+F www.everredtronics.com/files/3528RGB4C-CA.pdf
+$ENDCMP
+#
+$CMP LM1117-1.8
+D 800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM1117-2.5
+D 800mA Low-Dropout Linear Regulator, 2.5V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM1117-3.3
+D 800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM1117-5.0
+D 800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM4040-N_DCK
+D Micro-power precision shunt voltage reference
+K SC70-5, 60µA, 2.5V
+F http://www.ti.com/lit/ds/symlink/lm4040-n-q1.pdf
+$ENDCMP
+#
+$CMP LMV321
+D Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP LTD5112-xx
+D 3-digit 7-segment 0.56" common cathode LED display
+K 7-segment, common cathode, LED display, DIP-12
+F http://www.ligitek.com/datasheet/ltd511-22-xx.pdf
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Small
+D Inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP MBR05xx
+D SCHOTTKY BARRIER RECTIFIER 0.5 A, 20 V
+K Schottky power rectifier, 20V, 0.5A, SOD-123
+F https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF
+$ENDCMP
+#
+$CMP MEM2313SG
+D MOSFET Dual P-Channel 30V 6A 2V @ 250uA 80 mΩ @ 4A, 4.5V SOIC-8_150mil
+K LCSC: C7380
+F https://lcsc.com/product-detail/MOSFET_MEM2313SG_C7380.html
+$ENDCMP
+#
+$CMP MET1117-3.3
+D Low Dropout Regulators (LDO) Positive, Fixed 3.3V, 800mA, 20Vin, 1.7V@800mA, SOT-223, 750mW
+K MET1117A33B3G LCSC:C83972
+F https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_MET1117A33B3G_C83972.html
+$ENDCMP
+#
+$CMP MET1117-5.0
+D Low Dropout Regulators (LDO) Positive, Fixed 5V, 800mA, 20Vin, 1.7V@800mA, SOT-223, 750mW
+K MET1117A50B3G LCSC:C83973
+F https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_MET1117A50B3G_C83973.html
+$ENDCMP
+#
+$CMP NUC12SRE3DE
+D Nuvoton Cortex M0, USB 2.0FS device, 128k flash, 16k RAM, LQFP64 (pre-flashed NuLink USB-SWD bridge fw)
+K Nuvoton, NuLink, NuMicro, NUC120
+F https://www.nuvoton.com/hq/products/microcontrollers/arm-cortex-m0-mcus/nuc120-122-123-220-usb-series/nuc120re3dn/?__locale=en
+$ENDCMP
+#
+$CMP OPA333xxDCK
+D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SC-70-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA376xxDCK
+D Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP POT_TRIM
+D Trim-Potentiometer
+K resistor variable trimpot trimmer
+$ENDCMP
+#
+$CMP Polyfuse
+D Resettable polyfuse
+K Resettable polyfuse
+F http://www.mouser.com/ds/2/240/smd1206_lf_040606-306240.pdf
+$ENDCMP
+#
+$CMP Pushbutton_SMD_TS-1102W-4316
+D Tactile Switches, SPST-NO, 6x6x4.3mm, 50mA @ 12VDC  (LCSC: C111373 et.al)
+K Tactile pushbutton, 6x6 mm, 4-pin SMD (e.g. LCSD: C111373 - "TS-1102W-4316")
+F https://lcsc.com/product-detail/Tactile-Switches_SOFNG-TS-1102W-4316_C111373.html
+$ENDCMP
+#
+$CMP QTLP670C-24
+D Dual-color Red/Green chip LED PLCC-4, 3.5 x 2.8 x 1.9 mm
+K Dual-color LED, SMD, R/G, 3528 PLCC-4
+F http://pdf.datasheet.support/datasheets-1/everlight_international/QTLP670C-24.pdf
+$ENDCMP
+#
+$CMP Q_DUAL_PMOS_WSP4099
+D Dual PMOS transistor, 8-pin package WSP4099 : LCSC C148423, SOP8-150mil
+K transistor PMOS P-MOS P-MOSFET
+F https://datasheet.lcsc.com/szlcsc/1809211122_Winsok-Semicon-WSP4099_C148423.pdf
+$ENDCMP
+#
+$CMP R_Pack04-WA04X103JTL
+D 4 resistor network, parallel topology, DIP package - WA04X103JTL: 10k, 5% 1/16W, 0402
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+$CMP SC662K
+D 0.4V 250mA Low-dropout voltage regulator (LCSC: C83932)
+K LCSC SC662K LDO 250mA SOT23-3
+$ENDCMP
+#
+$CMP SE4953
+D MOSFET dual P-Channel 30V 4.9A 2V @ 250µA 85 mΩ @ 3.5A, 4.5V SOIC-8_150mil RoHS
+K LCSC: C238695
+F https://lcsc.com/product-detail/MOSFET_SINO-IC-SE4953_C238695.html
+$ENDCMP
+#
+$CMP SKHUxxE010
+D 6.2x6.3mm 12V 50mA 100mR 4-pin SMD pushbutton. 1N (AK, green) / 1.6N (AL, black) / 2.6N (AM, red)
+K ALPS SKHU-series SMD pushbutton
+$ENDCMP
+#
+$CMP SLESD5Z5V
+D SLESD5Z series Transient-Voltage-Suppression diode for ESD protection
+K TVS diode SLESD5Z SOD-523 LCSC:C268188
+F https://lcsc.com/product-detail/TVS_SLKORMICRO-Elec-SLESD5Z5V_C268188.html
+$ENDCMP
+#
+$CMP STM32F103RCTx
+D 256kB/48kB, LQFP-64, 72MHz Cortex-M3, 2x 12b DACs, 3x 12b ADCs, USB, CAN, SDIO
+K Cortex-M3, 256k Flash, 48k SRAM, 72MHz
+$ENDCMP
+#
+$CMP STM32F429VETx
+D ARM Cortex-M4 MCU, 512KB flash, 192KB RAM, 180MHz, 1.8-3.6V, 82 GPIO, LQFP-100 14x14mm. Ref. Man : RM0090
+K ARM Cortex-M4 STM32F4 STM32F429/439 (DS: https://www.st.com/resource/en/datasheet/stm32f429ng.pdf)
+F https://www.st.com/resource/en/datasheet/stm32f429ng.pdf
+$ENDCMP
+#
+$CMP STM32F429VGTx
+D ARM Cortex-M4 MCU, 1024KB flash, 192KB RAM, 180MHz, 1.8-3.6V, 82 GPIO, LQFP-100 14x14mm. Ref. Man : RM0090
+K ARM Cortex-M4 STM32F4 STM32F429/439 (DS: https://www.st.com/resource/en/datasheet/stm32f429ng.pdf)
+F https://www.st.com/resource/en/datasheet/stm32f429ng.pdf
+$ENDCMP
+#
+$CMP STM32F429VITx
+D ARM Cortex-M4 MCU, 2048KB flash, 192KB RAM, 180MHz, 1.8-3.6V, 82 GPIO, LQFP-100 14x14mm. Ref. Man : RM0090
+K ARM Cortex-M4 STM32F4 STM32F429/439 (DS: https://www.st.com/resource/en/datasheet/stm32f429ng.pdf)
+F https://www.st.com/resource/en/datasheet/stm32f429ng.pdf
+$ENDCMP
+#
+$CMP STM32_bootmodes
+D STM32 Boot-modes description table
+K STM32 Boot-modes table
+$ENDCMP
+#
+$CMP STX-3501-3N
+D Kycon right-angle 3.5mm audio jack (PTH)
+K 3.5mm audio jack
+F http://www.kycon.com/2013Catalogpage/Audio%20Jacks/STX-3501.pdf
+$ENDCMP
+#
+$CMP STX-3501-3N_(TTL-232R-xV-AJ)
+D Kycon Right-angle 3.5mm 3-pins audio jack (PTH) - intended for FTDI TTL-232R-3V3-AJ
+K Right-angle 3.5mm, Debug UART jack, FTDI, TTL-232R-3V3-AJ, https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf
+F http://www.kycon.com/2013Catalogpage/Audio%20Jacks/STX-3501.pdf
+$ENDCMP
+#
+$CMP SX_0402_RGB-LED_CA
+D RGB nano-LED PLCC-4, SMD 1.0 x 1.0 x 0.7 mm. Mfg: XIASONGXIN LIGHT
+K Multi-color RGB LED, SMD, 0402 (1010) PLCC-4, 'SX-0402-RGB'
+F https://www.aliexpress.com/item/200PC-Lot-SMD-0402-RGB-Full-Color-0404-Red-Green-Blue-Common-Anode-Led-Free-Shipping/32372871699.html
+$ENDCMP
+#
+$CMP TLC5955DCA
+D 48-ch, 16-bit PWM LED const.current LED driver, HTSSOP-56
+K 48-channel PWM LED driver
+F http://www.ti.com/lit/ds/symlink/tlc5955.pdf
+$ENDCMP
+#
+$CMP TLV1117-15
+D 800mA Low-Dropout Linear Regulator, 1.5V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-18
+D 800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-25
+D 800mA Low-Dropout Linear Regulator, 2.5V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-33
+D 800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-50
+D 800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TPS2HB16AQ1
+D 40V, 16mOhm Dual-channel Smart protected HiSide Switch, 4.1 - 22A (5x4.5mm HTSSOP-16)
+K Dual-channel, HS Load-switch, HTSSOP-16 (PWP)
+F https://www.ti.com/lit/ds/symlink/tps2hb16-q1.pdf
+$ENDCMP
+#
+$CMP VAA
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VBUS
+D bus-voltage (e.g. USB) power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VCC
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VCCQ
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VCOM
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDC
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDDA
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_IO
+D positive voltage for I/O driver power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VIN
+D Input power-supply power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VSS
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VSSA
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP W25Q64FV
+D 64Mb serial flash, 2.7 to 3.6V, 104MHz, 4k/32k/64k blocks
+K 64Mb QSPI flash SOIC-8 208mil
+F https://www.pjrc.com/store/w25q64fv.pdf
+$ENDCMP
+#
+$CMP YSO751SR
+D Xtal oscillator, CMOS 3.3V-5V, 20ppm, 30MHz, 7x5mm 4p SMD
+K Yangxing Tech O705030MGDA4SC, LCSC:C70643
+F https://lcsc.com/product-detail/SMD-Oscillators-XO_Yangxing-Tech-O705030MGDA4SC_C70643.html
+$ENDCMP
+#
+$CMP bluepill_dip40
+D Bluepill DIP40 board
+$ENDCMP
+#
+$CMP bob_10p_usbuart
+D 10-pin USB/UART bridge module
+$ENDCMP
+#
+$CMP dogbone_2
+D Solderpads with jumper-wire
+K jumper dogbone
+$ENDCMP
+#
+$CMP dogbone_3
+D Solderpads with jumper-wire
+K jumper dogbone
+$ENDCMP
+#
+$CMP microUSB_5p
+D Micro-USB conn recp. 5p (LCSC part: C40954)
+K C40954 Jing Extension of the Electronic Co.
+$ENDCMP
+#
+$CMP pcie_x4_card_edge
+D PCIe x4 card edge, gold fingers
+K PCIe_x4 card edge connector, fits e.g. Amphenol pn:10018784-10201TLF
+F https://www.mouser.se/ProductDetail/649-1001878410201TLF
+$ENDCMP
+#
+$CMP pcie_x4_conn
+D PCIe x4 connector, verical, throughhole
+K PCIe_x4, Amphenol, pn:10018784-10201TLF
+F https://www.mouser.se/ProductDetail/649-1001878410201TLF
+$ENDCMP
+#
+#End Doc Library
