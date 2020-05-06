@@ -40,6 +40,12 @@ K SMD crystal, ABMM2, 6.0x3.6mm
 F http://www.abracon.com/Resonators/ABMM2.pdf
 $ENDCMP
 #
+$CMP AD8552ARU
+D Dual high-precision Op-Amp; Zero-drift, single-supply, 1uV offset, RRIO, 1.5MHz, TSSOP-8
+K Dual Precision RRIO Chopper Op-Aamp TSSOP-8
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8551_8552_8554.pdf
+$ENDCMP
+#
 $CMP ALPS-EC11E18244A5
 D ALPS Rotary encoder w pushbtn, vertical, flatten shaft, 12x12x4.5(24.5)mm, 36 detents, through hole
 K rotary encoder, vertical
@@ -96,6 +102,18 @@ $ENDCMP
 $CMP CH340G
 D CH340G full-speed USB-to-serial converter 50-2Mbps 5V or 3.3V
 K USB 2.0, serial, UART, flow control, full duplex, FIFO, SO-16
+$ENDCMP
+#
+$CMP Crystal_TSX3225_16MF18X-AC3
+D Epson 3225 SMD 4-pad crystal (GND on 2 and 4). F=16MHz, 18ppm, DL=200uW, CL=9pF, ESR=60Ohm
+K Epson, 3225, SMD, crystal, 16MHz, 18ppm
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_TSX-3225&lang=en
+$ENDCMP
+#
+$CMP Crystal_TSX3225_25MF10P-C
+D Epson 3225 SMD 4-pad crystal (GND on 2 and 4). F=25MHz, 10ppm, 200uW, CL=18pF, ESR=40Ohm
+K Epson, 3225, SMD, crystal, 25MHz, 10ppm
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_TSX-3225&lang=en
 $ENDCMP
 #
 $CMP DCF77
@@ -345,6 +363,12 @@ K transistor PMOS P-MOS P-MOSFET
 F https://datasheet.lcsc.com/szlcsc/1809211122_Winsok-Semicon-WSP4099_C148423.pdf
 $ENDCMP
 #
+$CMP REF6125IDGK
+D High-precision, low power Voltage reference with buffer; Icc=0.9mA, Vout=2.5V, acc=0.05%, drift=8ppm/C
+K High-accurracy Vref, 2.5V, 0.05%, 8ppm VSSOP-8
+F https://www.ti.com/lit/gpn/ref6125
+$ENDCMP
+#
 $CMP R_Pack04-WA04X103JTL
 D 4 resistor network, parallel topology, DIP package - WA04X103JTL: 10k, 5% 1/16W, 0402
 K R network parallel topology isolated
@@ -453,6 +477,18 @@ $CMP TLV1117-50
 D 800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223
 K linear regulator ldo fixed positive
 F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV9051SIDBV
+D Low-Power, single opamp with shutdown; RRIO, 5MHz, 0.33mV offset, 15V/us, SOT23-6
+K single RRIO opamp shutdown SOT23-6
+F https://www.ti.com/lit/gpn/tlv9051
+$ENDCMP
+#
+$CMP TLV9052SIDGS
+D Low-Power dual opamp with shutdown; RRIO, 5MHz, 0.33mV offset, 15V/us, VSSOP-10
+K dual RRIO opamp shutdown
+F https://www.ti.com/lit/gpn/tlv9052
 $ENDCMP
 #
 $CMP TPS2HB16AQ1
