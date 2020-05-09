@@ -28,10 +28,28 @@ K LCSC:C135822 SC70-6(SOT-363) single 2-input mux
 F https://lcsc.com/product-detail/74-Series_NXP_74LVC1G157GW-125_74LVC1G157GW-125_C135822.html
 $ENDCMP
 #
+$CMP 74LVC1G17DCK
+D Single D Flip-Flop w/ Asnynchronus Clear, Low-Voltage CMOS, SC70-6
+K Single D Flip-Flop Clear CMOS
+F http://www.ti.com/lit/gpn/sn74lvc1g17
+$ENDCMP
+#
+$CMP 74LVC74APW
+D Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear and Set. 1.65 to 3.6V Vcc, 5.5V tolerant, tpd<=5.2ns (3v3)
+K DFF dual flipflop
+F http://www.ti.com/lit/gpn/sn74lvc74a
+$ENDCMP
+#
 $CMP 74xxT245
 D Octal Bidirectional Transceiver with 3-STATE inputs/outputs. HCT:6mA/pin; ACT:24mA/pin; ABT:+64/-32mA
 K Octal buffer line-driver tranceiver
 F https://www.mouser.com/ds/2/149/74ACT245-1006572.pdf
+$ENDCMP
+#
+$CMP 87DC3-201
+D 87DC3-201 Two button module
+K Grayhill 87-series low-profile 1-6 buttons modules, matrices
+F https://www.mouser.se/datasheet/2/626/Keypads_87-334536.pdf
 $ENDCMP
 #
 $CMP ABMM2
@@ -68,6 +86,18 @@ $CMP AO4803A
 D Alpha&Omega Dual P-Channel MOSFET, 30V, 5A, 2W, 75mOhm, -2,5V Vgs(th), LCSC:C115832
 K PFET, 30V, 5A, 2W, 75mOhm, -2,5V Vgs(th), LCSC:C115832
 F https://lcsc.com/product-detail/MOSFET_AOS_AO4803A_AO4803A_C115832.html
+$ENDCMP
+#
+$CMP APXG160ARA101ME61G
+D UCC 100uF 20%, 16V Polymer Aluminum solid capacitor, SMD 5x5.8, Z(100k)=27mOhm, Ir=3000mArms, Tmax=105C
+K cap NPCAP Polymer Aluminium solid capacitor SMD Nippon United Chemi-Con
+F https://www.mouser.se/datasheet/2/420/United-Chemi-Con-775864.pdf
+$ENDCMP
+#
+$CMP ASPI-0630LR-3R3M-T15
+D Abracon Molding type power inductor, 3.3uH (20%), DCR=25mOhm, Isat=10A, Tmax=125C, 3MHz, 7.2x6.7x3mm
+K power inductor
+F https://www.mouser.se/datasheet/2/3/ASPI-0630LR-1774844.pdf
 $ENDCMP
 #
 $CMP ArduinoNanoV3
@@ -120,6 +150,48 @@ $CMP DCF77
 D DCF77 receiver module (Conrad 64-11-38)
 K DCF77, module
 F https://www.conrad.se/DCF-mottagare-modul-641138-C-Control.htm
+$ENDCMP
+#
+$CMP DIO6809JST3
+D Ultra-low Power 10uA CPU Reset Circuit,  4.0(+0.1)V, Tres=140 to 500ms (240typ). SOT23-3 (AFAA)
+K Supervisory Circuit processor Reset Circuit SOT23-3
+F https://www.mouser.se/datasheet/2/802/be8dbb984461a6c7927da36aab2cf2b8-1660966.pdf
+$ENDCMP
+#
+$CMP DIO6809LST3
+D Ultra-low Power 10uA CPU Reset Circuit,  4.63(+-0.12)V, Tres=140 to 500ms (240typ). SOT23-3 (AFAA)
+K Supervisory Circuit processor Reset Circuit SOT23-3
+F https://www.mouser.se/datasheet/2/802/be8dbb984461a6c7927da36aab2cf2b8-1660966.pdf
+$ENDCMP
+#
+$CMP DIO6809MST3
+D Ultra-low Power 10uA CPU Reset Circuit,  4.38(+-0.12)V, Tres=140 to 500ms (240typ). SOT23-3 (AFAA)
+K Supervisory Circuit processor Reset Circuit SOT23-3
+F https://www.mouser.se/datasheet/2/802/be8dbb984461a6c7927da36aab2cf2b8-1660966.pdf
+$ENDCMP
+#
+$CMP DIO6809RST3
+D Ultra-low Power 10uA CPU Reset Circuit,  2.63(+-0.07)V, Tres=140 to 500ms (240typ). SOT23-3 (AFAA)
+K Supervisory Circuit processor Reset Circuit SOT23-3
+F https://www.mouser.se/datasheet/2/802/be8dbb984461a6c7927da36aab2cf2b8-1660966.pdf
+$ENDCMP
+#
+$CMP DIO6809SST3
+D Ultra-low Power 10uA CPU Reset Circuit,  2.93V (2.75-3.05), Tres=140 to 500ms (240typ). SOT23-3 (AFAA)
+K Supervisory Circuit processor Reset Circuit SOT23-3
+F https://www.mouser.se/datasheet/2/802/be8dbb984461a6c7927da36aab2cf2b8-1660966.pdf
+$ENDCMP
+#
+$CMP DIO6809TST3
+D Ultra-low Power 10uA CPU Reset Circuit,  3.08(+-0.08)V, Tres=140 to 500ms (240typ). SOT23-3 (AFAA)
+K Supervisory Circuit processor Reset Circuit SOT23-3
+F https://www.mouser.se/datasheet/2/802/be8dbb984461a6c7927da36aab2cf2b8-1660966.pdf
+$ENDCMP
+#
+$CMP DIO6809ZST3
+D Ultra-low Power 10uA CPU Reset Circuit,  2.32(+-0.06)V, Tres=140 to 500ms (240typ). SOT23-3 (AFAA)
+K Supervisory Circuit processor Reset Circuit SOT23-3
+F https://www.mouser.se/datasheet/2/802/be8dbb984461a6c7927da36aab2cf2b8-1660966.pdf
 $ENDCMP
 #
 $CMP DMG1012T
@@ -296,6 +368,24 @@ $CMP MBR05xx
 D SCHOTTKY BARRIER RECTIFIER 0.5 A, 20 V
 K Schottky power rectifier, 20V, 0.5A, SOD-123
 F https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF
+$ENDCMP
+#
+$CMP MBRS320T3G
+D 20V 3A Schottky Barrier Rectifier Diode, Very low Vf (0.5V max @ 3A, 25C), SMC-2 package
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF
+$ENDCMP
+#
+$CMP MBRS330T3G
+D 30V 3A Schottky Barrier Rectifier Diode, Very low Vf (0.5V max @ 3A, 25C), SMC-2 package
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF
+$ENDCMP
+#
+$CMP MBRS340T3G
+D 40V 3A Schottky Barrier Rectifier Diode, Very low Vf (0.5V max @ 3A, 25C), SMC-2 package
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF
 $ENDCMP
 #
 $CMP MEM2313SG
@@ -479,6 +569,54 @@ K linear regulator ldo fixed positive
 F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
 $ENDCMP
 #
+$CMP TLV1117LV
+D 1A Low-Dropout Linear Regulator, 100uA Low Iq, 2 to 5.5Vin, 0mA load stable, fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
+$CMP TLV1117LV12DCY
+D 1A LDO Linear Regulator, 1.2V fixed output, 2 to 5.5Vin, 100uA Low Iq, 0mA load stable, SOT-223
+K linear regulator ldo fixed positive, SOT-223
+F https://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
+$CMP TLV1117LV15DCY
+D 1A LDO Linear Regulator, 1.5V fixed output, 2 to 5.5Vin, 100uA Low Iq, 0mA load stable, SOT-223
+K linear regulator ldo fixed positive, SOT-223
+F https://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
+$CMP TLV1117LV18DCY
+D 1A LDO Linear Regulator, 1.8V fixed output, 2 to 5.5Vin, 100uA Low Iq, 0mA load stable, SOT-223
+K linear regulator ldo fixed positive, SOT-223
+F https://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
+$CMP TLV1117LV25DCY
+D 1A LDO Linear Regulator, 2.5V fixed output, 2 to 5.5Vin, 100uA Low Iq, 0mA load stable, SOT-223
+K linear regulator ldo fixed positive, SOT-223
+F https://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
+$CMP TLV1117LV28DCY
+D 1A LDO Linear Regulator, 2.8V fixed output, 2 to 5.5Vin, 100uA Low Iq, 0mA load stable, SOT-223
+K linear regulator ldo fixed positive, SOT-223
+F https://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
+$CMP TLV1117LV30DCY
+D 1A LDO Linear Regulator, 3.0V fixed output, 2 to 5.5Vin, 100uA Low Iq, 0mA load stable, SOT-223
+K linear regulator ldo fixed positive, SOT-223
+F https://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
+$CMP TLV1117LV33DCY
+D 1A LDO Linear Regulator, 3.3V fixed output, 2 to 5.5Vin, 100uA Low Iq, 0mA load stable, SOT-223
+K linear regulator ldo fixed positive, SOT-223
+F https://www.ti.com/lit/gpn/tlv1117lv
+$ENDCMP
+#
 $CMP TLV9051SIDBV
 D Low-Power, single opamp with shutdown; RRIO, 5MHz, 0.33mV offset, 15V/us, SOT23-6
 K single RRIO opamp shutdown SOT23-6
@@ -495,6 +633,18 @@ $CMP TPS2HB16AQ1
 D 40V, 16mOhm Dual-channel Smart protected HiSide Switch, 4.1 - 22A (5x4.5mm HTSSOP-16)
 K Dual-channel, HS Load-switch, HTSSOP-16 (PWP)
 F https://www.ti.com/lit/ds/symlink/tps2hb16-q1.pdf
+$ENDCMP
+#
+$CMP TPS54332DDA
+D 3.5V to 28V Input, 3.5A, 1MHz, 80-mΩ Synchronous Step-Down Converter with Eco-mode(tm)
+K Step-Down DC-DC Switching Regulator
+F https://www.ti.com/lit/gpn/tps54332
+$ENDCMP
+#
+$CMP UCL1V470MCL1GS
+D Nichicon 47uF 20%, 35V Aluminium Electrolytic capacitor, SMD 6.3x5.8, Z(100k)=0.26 Ohm, Ir=300mArms, Tmax=105C
+K cap capacitor Aluminium Electrolytic SMD
+F https://www.mouser.se/datasheet/2/293/e-ucl-1513103.pdf
 $ENDCMP
 #
 $CMP VAA
