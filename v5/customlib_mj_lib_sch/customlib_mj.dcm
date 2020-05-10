@@ -88,6 +88,18 @@ K PFET, 30V, 5A, 2W, 75mOhm, -2,5V Vgs(th), LCSC:C115832
 F https://lcsc.com/product-detail/MOSFET_AOS_AO4803A_AO4803A_C115832.html
 $ENDCMP
 #
+$CMP AP22811AW5
+D Single-channel USB power load switch, Active-high Enable, over-current flag. SOT25
+K Load-switch USB VBUS
+F https://www.diodes.com/assets/Datasheets/AP22811.pdf
+$ENDCMP
+#
+$CMP AP22811BW5
+D Single-channel USB power load switch, Active Low ENABLEn, over-current flag. SOT25
+K Load-switch USB VBUS
+F https://www.diodes.com/assets/Datasheets/AP22811.pdf
+$ENDCMP
+#
 $CMP APXG160ARA101ME61G
 D UCC 100uF 20%, 16V Polymer Aluminum solid capacitor, SMD 5x5.8, Z(100k)=27mOhm, Ir=3000mArms, Tmax=105C
 K cap NPCAP Polymer Aluminium solid capacitor SMD Nippon United Chemi-Con
@@ -657,6 +669,11 @@ D bus-voltage (e.g. USB) power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP VBUS_2
+D Power symbol creates a global label with name "VBUS_2"
+K power-flag
+$ENDCMP
+#
 $CMP VCC
 D Power flag
 K power-flag
@@ -688,8 +705,13 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP VIN
-D Input power-supply power-flag symbol
-K Power Flag Symbol
+D Power symbol creates a global label with name "VIN"
+K power-flag
+$ENDCMP
+#
+$CMP VMAIN
+D Power symbol creates a global label with name "VMAIN"
+K power-flag
 $ENDCMP
 #
 $CMP VSS
