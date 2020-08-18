@@ -34,6 +34,12 @@ K Single D Flip-Flop Clear CMOS
 F http://www.ti.com/lit/gpn/sn74lvc1g17
 $ENDCMP
 #
+$CMP 74LVC2G17
+D Dual Buffer Schmitt Triggered, Low-Voltage CMOS
+K Dual Buffer Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74LVC74APW
 D Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear and Set. 1.65 to 3.6V Vcc, 5.5V tolerant, tpd<=5.2ns (3v3)
 K DFF dual flipflop
@@ -139,6 +145,12 @@ $CMP Buzzer_ZL-YDW12055
 D ZLFY ZL-YDW12055-4005PA-6-5 12.5x5.5mm Piezo sounder, no driver
 K Piezo beeper buzzer throughhole
 F https://lcsc.com/product-detail/Buzzers_ZLFY-ZL-YDW12055-4005PA-6-5_C219731.html
+$ENDCMP
+#
+$CMP CES-30207-158L120-67_mini_speaker_20x30x7mm
+D CUI devices enclosed speaker 20x30x7mm, 1.5W (max 2), 8 Ohm, 120mm wire leads w. picoblade connector
+K CUI speaker 8 Ohm 1.5W
+F https://www.cuidevices.com/product/audio/speakers/miniature-(10-mm~40-mm)/ces-30207-158l120-67
 $ENDCMP
 #
 $CMP CH340G
@@ -254,10 +266,44 @@ K power-flag ground gnd clean
 F ~
 $ENDCMP
 #
+$CMP FFC_14p_50mm_folded_x2
+D Placeholder for mechanical item : folded FFC cable
+$ENDCMP
+#
+$CMP FFC_conn_14p
+D 14-pin, 0.5mm FFC connector
+K Würth 687114182122 [dual t/b], Molex 505278-143 [b] or LCSC (C283145) THD0515-14CL-SN [b]
+F https://www.we-online.com/catalog/datasheet/687114182122.pdf
+$ENDCMP
+#
+$CMP FFC_retention_clamp
+D 2 solderable pads for e.g. a wire-bridge to clamp FFC cables close to PCB surface
+$ENDCMP
+#
 $CMP Ferrite_Bead_Small
 D Ferrite bead, small symbol
 K L ferrite bead inductor filter
 F ~
+$ENDCMP
+#
+$CMP Frontpanel_L_Powerbtn_Pushbtns_holder
+D Front-panel assembly of a on/off Power push-button + Grayhill 87DC3-201 dual pushbuttons and 3d-printed holder
+K Soldering-station front panel left-hand assembly
+$ENDCMP
+#
+$CMP Frontpanel_Powerbtn_Pushbtns_holder
+D Front-panel assembly of a on/off Power push-button + Grayhill 87DC3-201 dual pushbuttons and 3d-printed holder
+K Soldering-station front panel left-hand assembly
+$ENDCMP
+#
+$CMP Frontpanel_R_RotaryEnc_Pushbtns_holder
+D Front-panel assembly of a KY040 Rotary Encoder + Grayhill 87DC3-201 dual pushbuttons and 3d-printed holder
+K Soldering-station front panel right-hand assembly
+$ENDCMP
+#
+$CMP Frontpanel_Rotary_Pushbtns_holder
+D Front-panel assembly of a KY040 Rotary Encoder + Grayhill 87DC3-201 dual pushbuttons and 3d-printed holder
+K Soldering-station front panel right-hand assembly
 $ENDCMP
 #
 $CMP GNDA
@@ -323,6 +369,12 @@ K KYCON 2.0mm DC jack
 F http://www.mouser.com/ds/2/222/kld-0202-a%20%20b-299280.pdf
 $ENDCMP
 #
+$CMP KY-040_mod
+D Cheap Rotary encoder w pushbtn, vertical, flattend "D"-shaft, 20 detents/revolution, "Arduino" mini-module
+K Rotary encoder module
+F https://www.handsontec.com/dataspecs/module/Rotary%20Encoder.pdf
+$ENDCMP
+#
 $CMP LED_3528_RGB-CA
 D RGB chip LED PLCC-4, SMD 3.5 x 2.8 x 1.9 mm
 K Multi-color RGB LED, SMD, 3528 PLCC-4
@@ -376,6 +428,11 @@ D Inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic
 $ENDCMP
 #
+$CMP Logo_MJ
+D Placeholder for a graphics logo
+K Graphics logo
+$ENDCMP
+#
 $CMP MBR05xx
 D SCHOTTKY BARRIER RECTIFIER 0.5 A, 20 V
 K Schottky power rectifier, 20V, 0.5A, SOD-123
@@ -400,6 +457,12 @@ K diode Schottky
 F https://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF
 $ENDCMP
 #
+$CMP MCP1316
+D Reset-circuit (2.6V for 26LE variant); active-low, push-pull output (200ms for xLE), master-reset input, watchdog (1.6s for xLE)
+K Reset supervisor watchdog SOT23-5
+F https://www.microchip.com/wwwproducts/en/MCP1316
+$ENDCMP
+#
 $CMP MEM2313SG
 D MOSFET Dual P-Channel 30V 6A 2V @ 250uA 80 mΩ @ 4A, 4.5V SOIC-8_150mil
 K LCSC: C7380
@@ -416,6 +479,24 @@ $CMP MET1117-5.0
 D Low Dropout Regulators (LDO) Positive, Fixed 5V, 800mA, 20Vin, 1.7V@800mA, SOT-223, 750mW
 K MET1117A50B3G LCSC:C83973
 F https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_MET1117A50B3G_C83973.html
+$ENDCMP
+#
+$CMP Mech_cutout_SS_left_pwrbtn_and_speedbtns
+D Mechanical cutouts for SolderingStation Powerbutton and speed-buttons
+$ENDCMP
+#
+$CMP Mech_cutout_SS_right_rotary_and_speedbtns
+D Mechanical cutouts for SolderingStation rotary encoder and speed-buttons
+$ENDCMP
+#
+$CMP NHD-3.12-25664
+D NHD-3.12-25664UCW2 3.12 inch, 256 x 64 pixels, 4-bit greyscale, graphical OLED display (module)
+K NHD-3.12 OLED NewHaven display
+F https://www.newhavendisplay.com/specs/NHD-3.12-25664UCW2.pdf
+$ENDCMP
+#
+$CMP NHD3.12-Mechanical_window
+D Mechanical cutout window for display
 $ENDCMP
 #
 $CMP NUC12SRE3DE
@@ -488,6 +569,18 @@ K LCSC: C238695
 F https://lcsc.com/product-detail/MOSFET_SINO-IC-SE4953_C238695.html
 $ENDCMP
 #
+$CMP SIM_8pin_block_connector
+D Amphenol C707B SIMBLOCK 8-pin, for ISO 7816 full-size cards. h=2.0mm + 0,8mm contacts
+K Amphenol C707B SIMBLOCK SIM SmartCard connector
+F https://www.mouser.se/datasheet/2/18/amphenol_c707_10m006_052_2-1157134.pdf
+$ENDCMP
+#
+$CMP SJ-3571N
+D 3.5 mm  Stereo, Right Angle, Through Hole, DPDT Switch, Audio Jack Connector
+K 3.5mm audio jack
+F https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj-357xn-series/sj-3571n
+$ENDCMP
+#
 $CMP SKHUxxE010
 D 6.2x6.3mm 12V 50mA 100mR 4-pin SMD pushbutton. 1N (AK, green) / 1.6N (AL, black) / 2.6N (AM, red)
 K ALPS SKHU-series SMD pushbutton
@@ -543,6 +636,18 @@ $CMP SX_0402_RGB-LED_CA
 D RGB nano-LED PLCC-4, SMD 1.0 x 1.0 x 0.7 mm. Mfg: XIASONGXIN LIGHT
 K Multi-color RGB LED, SMD, 0402 (1010) PLCC-4, 'SX-0402-RGB'
 F https://www.aliexpress.com/item/200PC-Lot-SMD-0402-RGB-Full-Color-0404-Red-Green-Blue-Common-Anode-Led-Free-Shipping/32372871699.html
+$ENDCMP
+#
+$CMP Si4497DY
+D 36A Id, 30V Vds, 3.3 mOhm Ron, SO-8
+K P-Channel MOSFET
+F https://www.vishay.com/docs/65748/si4497dy.pdf
+$ENDCMP
+#
+$CMP SmartCard_8pin
+D Full-size ISO/IEC 7816 8-pin SIM- or SmartCard (device-side contact pads)
+K SIM SmartCard UICC ISO-7816
+F https://kicad-info.s3-us-west-2.amazonaws.com/original/2X/8/8284664dcd17da99bbd14cb08e99d025c060171e.pdf
 $ENDCMP
 #
 $CMP TLC5955DCA
@@ -641,6 +746,12 @@ K dual RRIO opamp shutdown
 F https://www.ti.com/lit/gpn/tlv9052
 $ENDCMP
 #
+$CMP TMUX1219
+D Bidirectional 2:1 5-V general-purpose switch, SPDT analog MUX, 1.1 to 5.5V, 3 Ohm R_on
+K SC70-6 / SOT23-6 2:1 SPDT  analog MUX
+F https://www.ti.com/lit/ds/symlink/tmux1219.pdf
+$ENDCMP
+#
 $CMP TPS2HB16AQ1
 D 40V, 16mOhm Dual-channel Smart protected HiSide Switch, 4.1 - 22A (5x4.5mm HTSSOP-16)
 K Dual-channel, HS Load-switch, HTSSOP-16 (PWP)
@@ -653,10 +764,27 @@ K Step-Down DC-DC Switching Regulator
 F https://www.ti.com/lit/gpn/tps54332
 $ENDCMP
 #
+$CMP Touchsensor_linear_5ch_H
+D Linear touch sensor with 5 capacitive channels, half-split end pads
+K Capacitive touch sensor linear slider
+$ENDCMP
+#
 $CMP UCL1V470MCL1GS
 D Nichicon 47uF 20%, 35V Aluminium Electrolytic capacitor, SMD 6.3x5.8, Z(100k)=0.26 Ohm, Ir=300mArms, Tmax=105C
 K cap capacitor Aluminium Electrolytic SMD
 F https://www.mouser.se/datasheet/2/293/e-ucl-1513103.pdf
+$ENDCMP
+#
+$CMP USB_A-TE_1-292303-1
+D USB Type A 2.0 Standard Profile, Receptacle, 1 Ports, Top, Flush Surface Mount, Kinked Legs PCB Mount Retention Type
+K connector USB A
+F https://www.te.com/usa-en/product-1-292303-1.html
+$ENDCMP
+#
+$CMP USB_B-TE_1734346-1
+D USB Type B 2.0 connector, Standard Profile, Receptacle, 1 Ports, Top, Offset, Surface Mount SMT Hold-Down PCB Mount Retention Type
+K connector USB Type B
+F https://www.te.com/usa-en/product-1734346-1.html
 $ENDCMP
 #
 $CMP VAA
@@ -722,6 +850,10 @@ $ENDCMP
 $CMP VSSA
 D Power flag
 K power-flag
+$ENDCMP
+#
+$CMP Veroboard_1x3_strip
+D Joined 3x-pad for Veroboard with 3x1strips
 $ENDCMP
 #
 $CMP W25Q64FV
