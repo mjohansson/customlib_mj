@@ -639,7 +639,7 @@ F https://www.aliexpress.com/item/200PC-Lot-SMD-0402-RGB-Full-Color-0404-Red-Gre
 $ENDCMP
 #
 $CMP Si4497DY
-D 36A Id, 30V Vds, 3.3 mOhm Ron, SO-8
+D 36A Id, -30V Vds, +/-20V Vgs, 3.3 mOhm Ron, SO-8
 K P-Channel MOSFET
 F https://www.vishay.com/docs/65748/si4497dy.pdf
 $ENDCMP
