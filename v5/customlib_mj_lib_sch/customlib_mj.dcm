@@ -286,6 +286,11 @@ K L ferrite bead inductor filter
 F ~
 $ENDCMP
 #
+$CMP Frontpanel_L_Hybrid_PwrRotary_Pushbtns_holder
+D Front-panel assembly enabling either an on/off Power button OR a rotary encoder + Grayhill 87DC3-201 dual pushbuttons and 3d-printed holder
+K Soldering-station front panel generic left-hand assembly
+$ENDCMP
+#
 $CMP Frontpanel_L_Powerbtn_Pushbtns_holder
 D Front-panel assembly of a on/off Power push-button + Grayhill 87DC3-201 dual pushbuttons and 3d-printed holder
 K Soldering-station front panel left-hand assembly
