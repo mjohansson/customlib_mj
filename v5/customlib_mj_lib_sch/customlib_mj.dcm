@@ -886,8 +886,18 @@ D Solderpads with jumper-wire
 K jumper dogbone
 $ENDCMP
 #
+$CMP dogbone_2_ud
+D Solderpads without jumper-wire (user-defined)
+K jumper dogbone
+$ENDCMP
+#
 $CMP dogbone_3
 D Solderpads with jumper-wire
+K jumper dogbone
+$ENDCMP
+#
+$CMP dogbone_3_ud
+D Solderpads without jumper-wire (user-defined)
 K jumper dogbone
 $ENDCMP
 #
