@@ -1568,7 +1568,7 @@ ENDDEF
 DEF Frontpanel_R_RotaryEnc_Pushbtns_holder ASM 0 5 Y Y 1 F N
 F0 "ASM" 0 850 50 H V C CNN
 F1 "Frontpanel_R_RotaryEnc_Pushbtns_holder" 0 -550 50 H V C CNN
-F2 "" -25 425 50 H I C CNN
+F2 "customlib_mj_fp:Frontpanel_R_RotaryEnc_Pushbtns_holder-one_M3_removed" -25 425 50 H I C CNN
 F3 "" -25 425 50 H I C CNN
 DRAW
 A -25 400 212 1350 450 0 0 0 N -175 550 125 550
