@@ -237,7 +237,12 @@ F https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_DS24W_C108810.html
 $ENDCMP
 #
 $CMP DS3231_Module
-D DS3231 RTC module with CR2032 battery backup
+D DS3231 RTC module with CR2032 battery backup & 32k 24C32N I2C EEPROM
+K RTC, DS3231, I2C, CR2032, Battery backup
+$ENDCMP
+#
+$CMP DS3231_Module_6pins
+D DS3231 RTC module with CR2032 battery backup & 32k 24C32n I2C EEPROM
 K RTC, DS3231, I2C, CR2032, Battery backup
 $ENDCMP
 #
