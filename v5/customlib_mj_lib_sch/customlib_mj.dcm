@@ -118,6 +118,11 @@ K power inductor
 F https://www.mouser.se/datasheet/2/3/ASPI-0630LR-1774844.pdf
 $ENDCMP
 #
+$CMP Amphenol_T3437000-DIN7_panel_cutout
+D Amphenol T3437000 DIN7 panel cutout
+K Panel cutout Amphenol DIN-7 Weller connectors
+$ENDCMP
+#
 $CMP ArduinoNanoV3
 D Arduino Nano v3 module (ATmega328p), 5V, 16MHz, mini-USB
 K Arduino Nano, ATmega328, ATmega328P, DIP-30, mini-USB
@@ -283,6 +288,11 @@ $ENDCMP
 #
 $CMP FFC_retention_clamp
 D 2 solderable pads for e.g. a wire-bridge to clamp FFC cables close to PCB surface
+$ENDCMP
+#
+$CMP FN283-1-06_Schaffner_AC-panel_cutout
+D Panel cut-out for Schaffner FN283-1-06 AC-input jack w. on/off switch & EMI-filter. Outside mounting
+K Schaffner FN283 panel cutout
 $ENDCMP
 #
 $CMP Ferrite_Bead_Small
@@ -646,6 +656,11 @@ $CMP SX_0402_RGB-LED_CA
 D RGB nano-LED PLCC-4, SMD 1.0 x 1.0 x 0.7 mm. Mfg: XIASONGXIN LIGHT
 K Multi-color RGB LED, SMD, 0402 (1010) PLCC-4, 'SX-0402-RGB'
 F https://www.aliexpress.com/item/200PC-Lot-SMD-0402-RGB-Full-Color-0404-Red-Green-Blue-Common-Anode-Led-Free-Shipping/32372871699.html
+$ENDCMP
+#
+$CMP Schurter-3101_0060-fuse_holder-Panel_cutout
+D Schurter 3101.0060 fuse-holder panel cutout
+K Panel cutout Schurter cutout
 $ENDCMP
 #
 $CMP Si4497DY
