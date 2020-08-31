@@ -1243,6 +1243,50 @@ X GND 6 -300 -300 100 R 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
+# DSub9-Kycon_K22X-E9P-N-panel_cutout-small
+#
+DEF DSub9-Kycon_K22X-E9P-N-panel_cutout-small M 0 40 Y Y 1 F N
+F0 "M" 25 275 50 H V C CNN
+F1 "DSub9-Kycon_K22X-E9P-N-panel_cutout-small" 0 -275 50 H V C CNN
+F2 "customlib_mj_fp:DSub9-Kycon_K22X-E9P-N_panel_cutout_behind" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 225 300 -225 0 1 0 N
+P 2 0 0 0 -250 0 -400 0 N
+P 2 0 0 0 -150 0 -200 0 N
+P 2 0 0 0 -100 0 100 0 N
+P 2 0 0 0 0 -250 0 -400 N
+P 2 0 0 0 0 -150 0 -200 N
+P 2 0 0 0 0 100 0 -100 N
+P 2 0 0 0 0 150 0 200 N
+P 2 0 0 0 0 250 0 400 N
+P 2 0 0 0 150 0 200 0 N
+P 2 0 0 0 250 0 400 0 N
+ENDDRAW
+ENDDEF
+#
+# DSub9-Kycon_K22X-E9P-N-panel_cutout-through
+#
+DEF DSub9-Kycon_K22X-E9P-N-panel_cutout-through M 0 40 Y Y 1 F N
+F0 "M" 25 275 50 H V C CNN
+F1 "DSub9-Kycon_K22X-E9P-N-panel_cutout-through" 0 -275 50 H V C CNN
+F2 "customlib_mj_fp:DSub9-Kycon_K22X-E9P-N_panel_cutout_through" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 225 300 -225 0 1 0 N
+P 2 0 0 0 -250 0 -400 0 N
+P 2 0 0 0 -150 0 -200 0 N
+P 2 0 0 0 -100 0 100 0 N
+P 2 0 0 0 0 -250 0 -400 N
+P 2 0 0 0 0 -150 0 -200 N
+P 2 0 0 0 0 100 0 -100 N
+P 2 0 0 0 0 150 0 200 N
+P 2 0 0 0 0 250 0 400 N
+P 2 0 0 0 150 0 200 0 N
+P 2 0 0 0 250 0 400 0 N
+ENDDRAW
+ENDDEF
+#
 # D_Small
 #
 DEF D_Small D 0 10 N N 1 F N
@@ -3001,6 +3045,24 @@ X no_a 6 150 -100 100 L 50 50 2 1 P
 X nc_b 7 150 100 100 L 50 50 3 1 P
 X b 8 150 0 100 L 50 50 3 1 P
 X no_b 9 150 -100 100 L 50 50 3 1 P
+ENDDRAW
+ENDDEF
+#
+# SJ-3571N_CUI_audio_jacket_panel_cutout
+#
+DEF SJ-3571N_CUI_audio_jacket_panel_cutout M 0 40 Y Y 1 F N
+F0 "M" 150 250 50 H V C CNN
+F1 "SJ-3571N_CUI_audio_jacket_panel_cutout" 0 -250 50 H V C CNN
+F2 "customlib_mj_fp:SJ-3571N_panel_cutout" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 177 0 0 0 N
+P 2 0 0 0 -150 0 -200 0 N
+P 2 0 0 0 -100 0 100 0 N
+P 2 0 0 0 0 -150 0 -200 N
+P 2 0 0 0 0 100 0 -100 N
+P 2 0 0 0 0 150 0 200 N
+P 2 0 0 0 150 0 200 0 N
 ENDDRAW
 ENDDEF
 #

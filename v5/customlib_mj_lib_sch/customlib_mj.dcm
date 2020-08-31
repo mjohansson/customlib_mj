@@ -256,6 +256,16 @@ D DS3231 RTC module with CR2032 battery backup & 32k 24C32n I2C EEPROM
 K RTC, DS3231, I2C, CR2032, Battery backup
 $ENDCMP
 #
+$CMP DSub9-Kycon_K22X-E9P-N-panel_cutout-small
+D DSub-9 male (e.g. Kycon K22X-E9P-N) panel cutout - small (connector base behind panel)
+K Panel cutout DSub-9
+$ENDCMP
+#
+$CMP DSub9-Kycon_K22X-E9P-N-panel_cutout-through
+D DSub-9 male (e.g. Kycon K22X-E9P-N) panel cutout - whole connector poking through panel
+K Panel cutout DSub-9
+$ENDCMP
+#
 $CMP D_Small
 D Diode, small symbol
 K diode
@@ -608,6 +618,11 @@ $CMP SJ-3571N
 D 3.5 mm  Stereo, Right Angle, Through Hole, DPDT Switch, Audio Jack Connector
 K 3.5mm audio jack
 F https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj-357xn-series/sj-3571n
+$ENDCMP
+#
+$CMP SJ-3571N_CUI_audio_jacket_panel_cutout
+D CUI SJ-3571N 3.5mm audio jack panel cut-out
+K CUI Sj-3571N 3.5mm audio jack panel cut-out
 $ENDCMP
 #
 $CMP SKHUxxE010
