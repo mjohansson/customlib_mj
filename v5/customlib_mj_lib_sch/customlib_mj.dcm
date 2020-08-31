@@ -11,6 +11,11 @@ K Würth RJ45 Ethernet LAN Integrated Transformer Green/Yellow LED
 F https://www.we-online.com/catalog/datasheet/74980104400.pdf
 $ENDCMP
 #
+$CMP 74980104400-Wurth_RJ45-Panel_cutout
+D 74980104400 Würth RJ45 connector panel cutout
+K Panel cutout Wurth RJ45 Ethernet LAN
+$ENDCMP
+#
 $CMP 74HC1G125
 D 3-state, 1-bit bus buffer/line driver
 F https://lcsc.com/product-detail/74-Series_Nexperia_74HC1G125GV-125_74HC1G125GV-125_C152728.html
@@ -677,6 +682,16 @@ $CMP SmartCard_8pin
 D Full-size ISO/IEC 7816 8-pin SIM- or SmartCard (device-side contact pads)
 K SIM SmartCard UICC ISO-7816
 F https://kicad-info.s3-us-west-2.amazonaws.com/original/2X/8/8284664dcd17da99bbd14cb08e99d025c060171e.pdf
+$ENDCMP
+#
+$CMP TE-1-292303-Panel_cutout
+D TE 1-292303 USB-A host connector panel cutout
+K Panel cutout TE USB-A
+$ENDCMP
+#
+$CMP TE-1734346-Panel_cutout
+D TE 1734346 USB-B device connector panel cutout
+K Panel cutout TE USB-B
 $ENDCMP
 #
 $CMP TLC5955DCA
