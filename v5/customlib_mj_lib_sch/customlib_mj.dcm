@@ -305,6 +305,11 @@ $CMP FFC_retention_clamp
 D 2 solderable pads for e.g. a wire-bridge to clamp FFC cables close to PCB surface
 $ENDCMP
 #
+$CMP FN283-1-06_Schaffner_AC-mainboard_cutout
+D Main-board cut-out for Schaffner FN283-1-06 AC-input jack
+K Schaffner FN283 mainboard cutout
+$ENDCMP
+#
 $CMP FN283-1-06_Schaffner_AC-panel_cutout
 D Panel cut-out for Schaffner FN283-1-06 AC-input jack w. on/off switch & EMI-filter. Outside mounting
 K Schaffner FN283 panel cutout
