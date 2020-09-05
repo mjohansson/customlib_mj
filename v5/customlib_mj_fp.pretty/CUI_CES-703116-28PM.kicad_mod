@@ -1,4 +1,4 @@
-(module CUI_CES-703116-28PM (layer F.Cu) (tedit 5F53DBA6)
+(module CUI_CES-703116-28PM (layer F.Cu) (tedit 5F540082)
   (descr "CUI Devices enslosed speaker CES-70x31x16.5 mm with 4 mouting holes")
   (tags "CUI CES mini-speakers")
   (fp_text reference REF** (at 0 0.6) (layer F.Fab)
@@ -48,7 +48,7 @@
   (pad "" np_thru_hole circle (at -12.2 32) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 12.2 32) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/CUI_DEVICES_CES-703116-28PM_fasteners_assembly.step
-    (offset (xyz 15.5 -35 -1))
+    (offset (xyz 15.5 -35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
