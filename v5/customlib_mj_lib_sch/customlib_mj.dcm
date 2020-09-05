@@ -157,10 +157,28 @@ K Piezo beeper buzzer throughhole
 F https://lcsc.com/product-detail/Buzzers_ZLFY-ZL-YDW12055-4005PA-6-5_C219731.html
 $ENDCMP
 #
-$CMP CES-30207-158L120-67_mini_speaker_20x30x7mm
-D CUI devices enclosed speaker 20x30x7mm, 1.5W (max 2), 8 Ohm, 120mm wire leads w. picoblade connector
-K CUI speaker 8 Ohm 1.5W
+$CMP CES-30207-158L120-67
+D CUI Devices 30x20x7mm enclosed speaker, 8Ohm, 4V, 1.5W (max 2), 120mm AWG30 leads with Molex PicoBlade 51021-0200 conn.
+K CUI CES enclosed miniature speakers
 F https://www.cuidevices.com/product/audio/speakers/miniature-(10-mm~40-mm)/ces-30207-158l120-67
+$ENDCMP
+#
+$CMP CES-30207-158L120-67_Molex-PicoBlade_conn
+D Molex PicoBlade 51021-0200 conn. header for CUI Devices 30x20x7mm enclosed speaker
+K Molex PicoBlade header CUI CES enclosed miniature speaker
+F https://www.molex.com/molex/products/part-detail/pcb_headers/0533980271
+$ENDCMP
+#
+$CMP CES-703116-28PM
+D CUI Devices 70x31x16.5mm enclosed speaker, 8Ohm, 4V, 2W (max 3), 420mm AWG26 leads with JST PHR-2 conn.
+K CUI CES enclosed miniature speakers
+F https://www.cuidevices.com/product/audio/speakers/standard-(41-mm~205-mm)/ces-703116-28pm
+$ENDCMP
+#
+$CMP CES-703116-28PM_JST-conn
+D JST header for the PHR-2 connetor on CUI Devices 70x31x16.5mm enclosed speaker
+K CUI CES enclosed miniature speakers JST PH header
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf?5f53c6b596f2a
 $ENDCMP
 #
 $CMP CH340G
