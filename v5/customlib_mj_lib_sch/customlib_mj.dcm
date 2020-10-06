@@ -186,6 +186,11 @@ D CH340G full-speed USB-to-serial converter 50-2Mbps 5V or 3.3V
 K USB 2.0, serial, UART, flow control, full duplex, FIFO, SO-16
 $ENDCMP
 #
+$CMP CUI-UJ2_AH_1_SMT-Panel_cutout
+D USB-A CUI-UJ2_AH_1_SMT host connector panel cutout
+K Panel cutout CUI USB-A
+$ENDCMP
+#
 $CMP Crystal_TSX3225_16MF18X-AC3
 D Epson 3225 SMD 4-pad crystal (GND on 2 and 4). F=16MHz, 18ppm, DL=200uW, CL=9pF, ESR=60Ohm
 K Epson, 3225, SMD, crystal, 16MHz, 18ppm
@@ -855,6 +860,18 @@ $CMP UCL1V470MCL1GS
 D Nichicon 47uF 20%, 35V Aluminium Electrolytic capacitor, SMD 6.3x5.8, Z(100k)=0.26 Ohm, Ir=300mArms, Tmax=105C
 K cap capacitor Aluminium Electrolytic SMD
 F https://www.mouser.se/datasheet/2/293/e-ucl-1513103.pdf
+$ENDCMP
+#
+$CMP USB_A-CUI-J2_AH_4_SMT
+D USB Type A 2.0 Standard Profile, Receptacle, 1 Ports, Top, Flush Surface Mount, SMT PCB Mount Retention Type, 30um
+K connector USB A
+F https://www.cuidevices.com/product/interconnect/connectors/usb-connectors/uj2-ah-smt-series/uj2-ah-1-smt
+$ENDCMP
+#
+$CMP USB_A-CUI-UJ2-AH-1-SMT
+D USB Type A 2.0 Standard Profile, Receptacle, 1 Ports, Top, Flush Surface Mount, SMT PCB Mount Retention Type
+K connector USB A
+F https://www.cuidevices.com/product/interconnect/connectors/usb-connectors/uj2-ah-smt-series/uj2-ah-1-smt
 $ENDCMP
 #
 $CMP USB_A-TE_1-292303-1
