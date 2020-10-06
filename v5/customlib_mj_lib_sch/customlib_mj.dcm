@@ -5,6 +5,12 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP 4mm_banana_socket-LB_I4R_A-panelmnt
+D Stäubli LB-i4R-A, 4mm banana socket, panel mount, black, 4.8mm flat tab, mfg pn: 23.0190-21, Elfa: 301-36-139
+K 4mm Banana socket panel mount
+F https://www.elfa.se/Web/Downloads/_t/ds/LB-I4R-A_B_eng_fre_ger_tds.pdf
+$ENDCMP
+#
 $CMP 74980104400
 D WE-RJ45 10/100-T LAN Integrated magnetics Through-hole connector Dual bi-color LED
 K Würth RJ45 Ethernet LAN Integrated Transformer Green/Yellow LED
