@@ -1455,8 +1455,8 @@ P 7 0 1 0 -245 30 -250 25 -250 -55 -245 -60 -240 -55 -240 25 -245 30 N
 P 7 0 1 0 -245 30 -250 25 -250 -55 -245 -60 -240 -55 -240 25 -245 30 F
 P 7 0 1 0 -245 130 -250 125 -250 45 -245 40 -240 45 -240 125 -245 130 F
 P 7 0 1 0 -245 130 -250 125 -250 45 -245 40 -240 45 -240 125 -245 130 N
-P 7 0 1 0 -155 30 -160 25 -160 -55 -155 -60 -150 -55 -150 25 -155 30 F
 P 7 0 1 0 -155 30 -160 25 -160 -55 -155 -60 -150 -55 -150 25 -155 30 N
+P 7 0 1 0 -155 30 -160 25 -160 -55 -155 -60 -150 -55 -150 25 -155 30 F
 P 7 0 1 0 -155 130 -160 125 -160 45 -155 40 -150 45 -150 125 -155 130 N
 P 7 0 1 0 -155 130 -160 125 -160 45 -155 40 -150 45 -150 125 -155 130 F
 P 7 0 1 0 -145 -65 -140 -70 -60 -70 -55 -65 -60 -60 -140 -60 -145 -65 N
@@ -2624,6 +2624,44 @@ P 4 0 0 0 -100 150 -100 200 -100 150 -50 150 N
 ENDDRAW
 ENDDEF
 #
+# Molex_NanoFit-1x02
+#
+DEF Molex_NanoFit-1x02 J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "Molex_NanoFit-1x02" 0 -150 50 H V C CNN
+F2 "customlib_mj_fp:Molex_NanoFit_105430-1102_1x02_P2.50mm_Horizontal" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 100 50 -100 0 1 0 f
+X 1 1 -100 50 50 R 50 50 1 1 P
+X 2 2 -100 -50 50 R 50 50 1 1 P
+X ~ S1 50 -100 0 L 50 50 1 1 P
+X ~ S2 50 -100 0 L 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
+# Molex_NanoFit-1x02-Panel_cutout
+#
+DEF Molex_NanoFit-1x02-Panel_cutout M 0 40 Y Y 1 F N
+F0 "M" 50 275 50 H V C CNN
+F1 "Molex_NanoFit-1x02-Panel_cutout" 0 -275 50 H V C CNN
+F2 "customlib_mj_fp:Molex_NanoFit-1x02-Panel_cutout" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 225 300 -225 0 1 0 N
+P 2 0 0 0 -250 0 -400 0 N
+P 2 0 0 0 -150 0 -200 0 N
+P 2 0 0 0 -100 0 100 0 N
+P 2 0 0 0 0 -250 0 -400 N
+P 2 0 0 0 0 -150 0 -200 N
+P 2 0 0 0 0 100 0 -100 N
+P 2 0 0 0 0 150 0 200 N
+P 2 0 0 0 0 250 0 400 N
+P 2 0 0 0 150 0 200 0 N
+P 2 0 0 0 250 0 400 0 N
+ENDDRAW
+ENDDEF
+#
 # Mousebite_stamp_holes
 #
 DEF Mousebite_stamp_holes M 0 0 N N 1 F N
@@ -3211,6 +3249,24 @@ P 4 0 1 8 -30 50 -50 50 -50 -50 -70 -50 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 X C 1 -100 0 50 R 50 50 1 1 P
 X A 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SMA_bulkhead_jack_Panel_cutout
+#
+DEF SMA_bulkhead_jack_Panel_cutout M 0 40 Y Y 1 F N
+F0 "M" 150 250 50 H V C CNN
+F1 "SMA_bulkhead_jack_Panel_cutout" 0 -250 50 H V C CNN
+F2 "customlib_mj_fp:SMA_Bulkhead_jack-Panel_cutout" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 177 0 0 0 N
+P 2 0 0 0 -150 0 -200 0 N
+P 2 0 0 0 -100 0 100 0 N
+P 2 0 0 0 0 -150 0 -200 N
+P 2 0 0 0 0 100 0 -100 N
+P 2 0 0 0 0 150 0 200 N
+P 2 0 0 0 150 0 200 0 N
 ENDDRAW
 ENDDEF
 #

@@ -562,6 +562,17 @@ $CMP Mech_cutout_SS_right_rotary_and_speedbtns
 D Mechanical cutouts for SolderingStation rotary encoder and speed-buttons
 $ENDCMP
 #
+$CMP Molex_NanoFit-1x02
+D Molex Nano-Fit right-angle header, SMD, 2.50mm pitch, 6.5A/250V max, single-row 1x02
+K Molex Nano-Fit
+F https://www.molex.com/molex/products/part-detail/pcb_headers/1054301102
+$ENDCMP
+#
+$CMP Molex_NanoFit-1x02-Panel_cutout
+D Molex Nano-Fit 1x02 connector panel cutout
+K Panel cutout Molex NanoFit 1x02
+$ENDCMP
+#
 $CMP NHD-3.12-25664
 D NHD-3.12-25664UCW2 3.12 inch, 256 x 64 pixels, 4-bit greyscale, graphical OLED display (module)
 K NHD-3.12 OLED NewHaven display
@@ -668,6 +679,11 @@ $CMP SLESD5Z5V
 D SLESD5Z series Transient-Voltage-Suppression diode for ESD protection
 K TVS diode SLESD5Z SOD-523 LCSC:C268188
 F https://lcsc.com/product-detail/TVS_SLKORMICRO-Elec-SLESD5Z5V_C268188.html
+$ENDCMP
+#
+$CMP SMA_bulkhead_jack_Panel_cutout
+D SMA bulkhead jack panel cut-out
+K SMA jack panel cut-out
 $ENDCMP
 #
 $CMP STM32F103RCTx
