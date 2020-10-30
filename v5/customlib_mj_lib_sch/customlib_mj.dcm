@@ -550,6 +550,11 @@ K MET1117A50B3G LCSC:C83973
 F https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_MET1117A50B3G_C83973.html
 $ENDCMP
 #
+$CMP Mech_cutout_IDC_2x5
+D Mechanical cutouts for SolderingStation IDC 2x5 debug-connector
+K IDC 2x5 cut-out
+$ENDCMP
+#
 $CMP Mech_cutout_SS_left_2nd_rotary_and_speedbtns
 D Mechanical cutouts for SolderingStation 2nd-rotary and speed-buttons
 $ENDCMP
