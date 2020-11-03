@@ -197,6 +197,30 @@ D USB-A CUI-UJ2_AH_1_SMT host connector panel cutout
 K Panel cutout CUI USB-A
 $ENDCMP
 #
+$CMP Conn_WR-FAST_01x02
+D WR-FAST family single row, 6.3mm blade quick cable connectors; 01x02
+K quick blade cable connector
+F https://www.we-online.com/catalog/en/em/connectors/wire-to-board/wr-fast
+$ENDCMP
+#
+$CMP Conn_WR-FAST_01x03
+D WR-FAST family single row, 6.3mm blade quick cable connectors; 01x03
+K quick blade cable connector
+F https://www.we-online.com/catalog/en/em/connectors/wire-to-board/wr-fast
+$ENDCMP
+#
+$CMP Conn_WR-FAST_01x04
+D WR-FAST family single row, 6.3mm blade quick cable connectors; 01x04
+K quick blade cable connector
+F https://www.we-online.com/catalog/en/em/connectors/wire-to-board/wr-fast
+$ENDCMP
+#
+$CMP Conn_WR-FAST_01x06
+D WR-FAST family single row, 6.3mm blade quick cable connectors; 01x06
+K quick blade cable connector
+F https://www.we-online.com/catalog/en/em/connectors/wire-to-board/wr-fast
+$ENDCMP
+#
 $CMP Crystal_TSX3225_16MF18X-AC3
 D Epson 3225 SMD 4-pad crystal (GND on 2 and 4). F=16MHz, 18ppm, DL=200uW, CL=9pF, ESR=60Ohm
 K Epson, 3225, SMD, crystal, 16MHz, 18ppm
