@@ -192,6 +192,12 @@ D CH340G full-speed USB-to-serial converter 50-2Mbps 5V or 3.3V
 K USB 2.0, serial, UART, flow control, full duplex, FIFO, SO-16
 $ENDCMP
 #
+$CMP CM1213A-02SO
+D Dual Channel ESD Protection Array, 5.5V, very low capacitance
+K ESD Protection diodes transient suppressor
+F https://www.mouser.se/datasheet/2/308/CM1213A_D-1803202.pdf
+$ENDCMP
+#
 $CMP CUI-UJ2_AH_1_SMT-Panel_cutout
 D USB-A CUI-UJ2_AH_1_SMT host connector panel cutout
 K Panel cutout CUI USB-A
@@ -219,6 +225,12 @@ $CMP Conn_WR-FAST_01x06
 D WR-FAST family single row, 6.3mm blade quick cable connectors; 01x06
 K quick blade cable connector
 F https://www.we-online.com/catalog/en/em/connectors/wire-to-board/wr-fast
+$ENDCMP
+#
+$CMP Crystal_ECS­122.8­18­33­JGN­TR
+D ECS 3225 SMD 4-pad crystal (GND on 2 and 4). F=12.288MHz, +-20ppm, DL=100uW, CL=18pF, ESR=100Ohm
+K ECS 3225 SMD crystal 12.288MHz, 20ppm
+F https://www.mouser.se/datasheet/2/122/ecx-32-1100709.pdf
 $ENDCMP
 #
 $CMP Crystal_TSX3225_16MF18X-AC3
@@ -902,6 +914,12 @@ K Step-Down DC-DC Switching Regulator
 F https://www.ti.com/lit/gpn/tps54332
 $ENDCMP
 #
+$CMP TS5A3159A
+D Bidirectional 2:1 5-V general-purpose switch, SPDT analog MUX, 1.65 to 5.5V, 1 Ohm R_on, low THD, break-before-make
+K SC70-6 / SOT23-6 2:1 SPDT  analog MUX BBM
+F https://www.ti.com/product/TS5A3159A
+$ENDCMP
+#
 $CMP Touchsensor_linear_5ch_H
 D Linear touch sensor with 5 capacitive channels, half-split end pads
 K Capacitive touch sensor linear slider
@@ -990,6 +1008,12 @@ $ENDCMP
 $CMP VMAIN
 D Power symbol creates a global label with name "VMAIN"
 K power-flag
+$ENDCMP
+#
+$CMP VS1063a
+D Versatile audio DSP codec; MP3/Ogg Vorbis encoder, MP3/AAC/Ogg/FLAC/WMA decoder; I2S or Stereo-DAC+earphone-amp
+K MP3/OGG Vorbis audio codec
+F http://www.vlsi.fi/fileadmin/datasheets/vs1063ds.pdf
 $ENDCMP
 #
 $CMP VSS
