@@ -311,6 +311,12 @@ K DS24W SOD-123F LCSC:C108810
 F https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_DS24W_C108810.html
 $ENDCMP
 #
+$CMP DS3231M_or_MZ
+D Extremely accurate ±5ppm, I2C Real-Time Clock SO16 or SOIC-8
+K RTC TCXO Realtime Time Clock MEMS I2C
+F http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf
+$ENDCMP
+#
 $CMP DS3231_Module
 D DS3231 RTC module with CR2032 battery backup & 32k 24C32N I2C EEPROM
 K RTC, DS3231, I2C, CR2032, Battery backup
