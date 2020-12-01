@@ -592,6 +592,12 @@ K MET1117A50B3G LCSC:C83973
 F https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_MET1117A50B3G_C83973.html
 $ENDCMP
 #
+$CMP MIC5365-1.8YD5
+D 150mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SOT-23-5
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf
+$ENDCMP
+#
 $CMP Mech_cutout_IDC_2x5
 D Mechanical cutouts for SolderingStation IDC 2x5 debug-connector
 K IDC 2x5 cut-out
