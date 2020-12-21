@@ -139,6 +139,12 @@ D Arduino Nano v3 module (ATmega328p), 5V, 16MHz, mini-USB
 K Arduino Nano, ATmega328, ATmega328P, DIP-30, mini-USB
 $ENDCMP
 #
+$CMP B5819W
+D Schottky diode, 40V, 1A, 0.6V@1A, SOD-123. LCSC pn: C8598
+K diode Schottky LCSC-BASIC
+F https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf
+$ENDCMP
+#
 $CMP BAT54S
 D schottky barrier diode
 K schottky diode
@@ -335,6 +341,12 @@ $ENDCMP
 $CMP DSub9-Kycon_K22X-E9P-N-panel_cutout-through
 D DSub-9 male (e.g. Kycon K22X-E9P-N) panel cutout - whole connector poking through panel
 K Panel cutout DSub-9
+$ENDCMP
+#
+$CMP D_Schottky_Small
+D Schottky diode, small symbol
+K diode Schottky
+F ~
 $ENDCMP
 #
 $CMP D_Small
