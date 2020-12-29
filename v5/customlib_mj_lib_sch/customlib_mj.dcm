@@ -99,6 +99,12 @@ K linear regulator ldo fixed positive
 F http://www.advanced-monolithic.com/pdf/ds1117.pdf
 $ENDCMP
 #
+$CMP AO4407A
+D Alpha&Omega P-ch MOSFET 12A Id, -30V Vds, +/-25V Vgs, 13 mOhm Rds_on, SO-8, LCSC C16072
+K P-Channel MOSFET LCSC Basic-part
+F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO4407A_C16072.pdf
+$ENDCMP
+#
 $CMP AO4803A
 D Alpha&Omega Dual P-Channel MOSFET, 30V, 5A, 2W, 75mOhm, -2,5V Vgs(th), LCSC:C115832
 K PFET, 30V, 5A, 2W, 75mOhm, -2,5V Vgs(th), LCSC:C115832
