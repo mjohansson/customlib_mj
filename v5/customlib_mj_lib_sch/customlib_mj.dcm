@@ -486,6 +486,12 @@ K P-FET, 12V, 9A, SO-8
 F http://www.infineon.com/dgdl/irf7329pbf.pdf?fileId=5546d462533600a4015355f617841b55
 $ENDCMP
 #
+$CMP JLC_tooling_hole
+D Tooling hole for JLCPCB assembly. A round non-plated 1.152mm hole with 0.148mm solder mask expansion
+K JLC JLCPCB assembly tooling hole
+F https://support.jlcpcb.com/article/92-how-to-add-tooling-holes-for-smt-assembly-order
+$ENDCMP
+#
 $CMP K2-1187SQ
 D Tactile Switches, SPST-NO, 5.2x5.2x2.0mm, 50mA @ 12VDC, 100k cycles
 K Korean Hroparts Elec. tactile pushbutton, 5.2x5.2x2 mm, K2-1187SQ-D4SW-06

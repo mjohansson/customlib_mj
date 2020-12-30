@@ -2419,6 +2419,19 @@ X VCC 3 200 100 50 L 50 50 0 1 W
 ENDDRAW
 ENDDEF
 #
+# JLC_tooling_hole
+#
+DEF JLC_tooling_hole M 0 40 Y Y 1 F N
+F0 "M" 0 100 50 H V C CNN
+F1 "JLC_tooling_hole" 0 -100 50 H V C CNN
+F2 "customlib_mj_fp:JLC_tooling-hole" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+P 2 0 1 0 -50 50 50 -50 N
+ENDDRAW
+ENDDEF
+#
 # K2-1187SQ
 #
 DEF K2-1187SQ SW 0 40 Y N 1 F N
