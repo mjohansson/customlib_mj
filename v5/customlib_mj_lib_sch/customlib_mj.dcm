@@ -956,6 +956,12 @@ K SC70-6 / SOT23-6 2:1 SPDT  analog MUX BBM
 F https://www.ti.com/product/TS5A3159A
 $ENDCMP
 #
+$CMP TXB0108PWR
+D 8-bit bidirectional voltage level translator with auto-direction sensing TSSOP-20 package
+K bidirectional voltage level translator
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
 $CMP Touchsensor_linear_5ch_H
 D Linear touch sensor with 5 capacitive channels, half-split end pads
 K Capacitive touch sensor linear slider
