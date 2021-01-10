@@ -1,14 +1,14 @@
-(module Schurter_3101_0060_fuse_holder-panel_cutout (layer F.Cu) (tedit 5F459D77)
+(module Schurter_3101_0060_fuse_holder-panel_cutout (layer F.Cu) (tedit 5FFA6653)
   (fp_text reference REF** (at 0 0.6) (layer F.Fab)
     (effects (font (size 1.2 0.8) (thickness 0.16)))
   )
   (fp_text value Schurter_3101_0060_fuse_holder-panel_cutout (at 0 7) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_circle (center 0 0) (end 6.35 0) (layer Edge.Cuts) (width 0.12))
   (fp_circle (center 0 0) (end 6.35 0) (layer Dwgs.User) (width 0.12))
-  (model 3d_models/Schurter-0031.0060_002-fuseholder.stp
-    (offset (xyz 0 0 -8.8))
+  (fp_circle (center 0 0) (end 6.35 0) (layer Edge.Cuts) (width 0.12))
+  (model ${KICUSTOMLIB_DIR}/3d_models/Schurter-0031.0060_002-fuseholder.stp
+    (offset (xyz 0 0 -8.800000000000001))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
