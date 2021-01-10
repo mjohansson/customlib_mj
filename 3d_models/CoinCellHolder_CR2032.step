@@ -2,8 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/home/mjoh/projects/stm32/projects/SolderingStation/doc/RTC-modules/CR2
-032_batt/Eagle_plastic_devices-122-1020-GR-mj.step',
+'CoinCellHolder_CR2032.step',
   '2020-11-20T00:28:22',('Author'),(''),
   'Open CASCADE STEP processor 7.3','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));

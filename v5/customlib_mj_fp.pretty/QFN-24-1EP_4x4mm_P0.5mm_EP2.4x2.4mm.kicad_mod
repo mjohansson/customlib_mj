@@ -79,7 +79,7 @@
     (solder_mask_margin 0.01))
   (pad 24 smd roundrect (at -1.25 -2.2) (size 0.26 1.2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
     (solder_mask_margin 0.01))
-  (model "$(KIPRJMOD)/../3d_models/QFN-24-1EP_4x4mm_P0.5mm_EP2.4x2.4mm.wrl"
+  (model "${KICUSTOMLIB_DIR}/3d_models/QFN-24-1EP_4x4mm_P0.5mm_EP2.4x2.4mm.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

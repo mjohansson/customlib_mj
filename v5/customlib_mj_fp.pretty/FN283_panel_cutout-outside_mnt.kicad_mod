@@ -24,7 +24,7 @@
   (fp_arc (start 28.5 -13) (end 30 -13) (angle -90) (layer Dwgs.User) (width 0.12))
   (pad "" np_thru_hole circle (at 0 -20) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 20) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/Schaffner-FN283-1-06.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/Schaffner-FN283-1-06.stp
     (offset (xyz -18 0 25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 90))

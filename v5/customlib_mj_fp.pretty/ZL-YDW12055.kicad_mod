@@ -11,7 +11,7 @@
   (fp_circle (center 0 0) (end 6.5 0) (layer F.Fab) (width 0.15))
   (pad 2 thru_hole circle (at 3.25 0) (size 1.5 1.5) (drill 1.1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -3.25 0) (size 1.5 1.5) (drill 1.1) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/Arduino_AVR_misc/Prevas_julkort_2018/hw/3d_models/Piezo-CUI_CSQ_601BP-Compatible_with_ZL-YDW12055.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/Piezo-CUI_CSQ_601BP-Compatible_with_ZL-YDW12055.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

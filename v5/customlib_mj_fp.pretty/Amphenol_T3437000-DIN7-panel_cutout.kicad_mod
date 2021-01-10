@@ -11,7 +11,7 @@
   (fp_line (start -1.6 9.9) (end -1.598511 8.800271) (layer Edge.Cuts) (width 0.12))
   (fp_line (start 1.6 9.9) (end 1.6 8.8) (layer Edge.Cuts) (width 0.12))
   (fp_arc (start 0 0) (end 1.6 8.8) (angle -339.4) (layer Edge.Cuts) (width 0.12))
-  (model /home/mjoh/projects/stm32/projects/SolderingStation/mech/DIN7_done.stp
+  (model 3d_models/DIN7_done.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

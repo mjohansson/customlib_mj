@@ -81,7 +81,7 @@
   (pad 3 thru_hole circle (at -19.05 -19.5 180) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -21.59 -19.5 180) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -24.13 -19.5 180) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/NHD-3.12-25664UCxx.STEP
+  (model ${KICUSTOMLIB_DIR}/3d_models/NHD-3.12-25664UCxx.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

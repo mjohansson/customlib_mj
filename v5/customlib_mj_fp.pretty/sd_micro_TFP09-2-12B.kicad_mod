@@ -41,12 +41,12 @@
     (solder_mask_margin 0.05))
   (pad "" np_thru_hole circle (at 3.05 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -4.93 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
-  (model :PROJ3DMOD:Micro_SD_socket-112J-TXAR-R_C_1-1.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/Micro_SD_socket-112J-TXAR-R_C_1-1.step
     (offset (xyz -1 10.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
-  (model ${KIPRJMOD}/../3d_models/Micro_SD_socket-112J-TXAR-R_C_1-1.step
+  (model :PROJ3DMOD:Micro_SD_socket-112J-TXAR-R_C_1-1.step
     (offset (xyz -1 10.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

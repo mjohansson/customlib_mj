@@ -7,8 +7,8 @@
   )
   (fp_circle (center 0 0) (end 6.35 0) (layer Edge.Cuts) (width 0.12))
   (fp_circle (center 0 0) (end 6.35 0) (layer Dwgs.User) (width 0.12))
-  (model /home/mjoh/projects/stm32/projects/SolderingStation/mech/Schurter-0031.0060_002-fuseholder.stp
-    (offset (xyz 0 0 -8.800000000000001))
+  (model 3d_models/Schurter-0031.0060_002-fuseholder.stp
+    (offset (xyz 0 0 -8.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

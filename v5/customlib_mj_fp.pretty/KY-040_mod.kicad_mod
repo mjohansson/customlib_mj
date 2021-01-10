@@ -24,7 +24,7 @@
   (pad "" np_thru_hole circle (at -6 8.5) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 8 8.5) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 0) (size 7.3 7.3) (drill 7.3) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/MJ_KY040_rotary.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/MJ_KY040_rotary.stp
     (offset (xyz 0 0 -10))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

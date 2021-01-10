@@ -16,7 +16,7 @@
   (fp_line (start 8.3 -14.15) (end -8.3 -14.15) (layer Edge.Cuts) (width 0.2))
   (fp_line (start 8.3 0) (end 8.3 -14.15) (layer Edge.Cuts) (width 0.2))
   (fp_line (start -8.3 0) (end 8.3 0) (layer Edge.Cuts) (width 0.2))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/74980104400_WE-RJ45_LAN_rev1.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/74980104400_WE-RJ45_LAN_rev1.stp
     (offset (xyz 0 7.075 0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))

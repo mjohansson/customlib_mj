@@ -54,7 +54,7 @@
   (pad 2 thru_hole circle (at 3 0) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 3) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 3 3) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/Molex_MicroFit_430450421.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/Molex_MicroFit_430450421.stp
     (offset (xyz 1.5 4 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))

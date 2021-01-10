@@ -2,8 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/home/mjoh/projects/stm32/projects/SolderingStation/mech/DIN7_done_but_
-nonsolid.stp','2020-05-16T12:08:48',('Author'),(''),
+'./DIN7_done.stp','2020-05-16T12:08:48',('Author'),(''),
   'Open CASCADE STEP processor 7.3','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
 ENDSEC;

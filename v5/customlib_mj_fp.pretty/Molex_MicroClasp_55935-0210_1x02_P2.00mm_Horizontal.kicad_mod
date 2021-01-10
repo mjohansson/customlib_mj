@@ -56,7 +56,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/Molex_MicroClasp_559350210.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/Molex_MicroClasp_559350210.stp
     (offset (xyz 1 2.05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

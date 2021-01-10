@@ -14,7 +14,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/DistanceHex10mm_M3.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/DistanceHex10mm_M3.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

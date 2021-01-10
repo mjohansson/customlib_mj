@@ -17,7 +17,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model ${KIPRJMOD}/../3d_models/Abracon_ABS07.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/Abracon_ABS07.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

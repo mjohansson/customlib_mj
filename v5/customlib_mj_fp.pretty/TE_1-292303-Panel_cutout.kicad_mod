@@ -15,7 +15,7 @@
   (fp_line (start 6.8 -7.13) (end -6.8 -7.13) (layer Dwgs.User) (width 0.12))
   (fp_line (start 6.8 -1.13) (end 6.8 -7.13) (layer Dwgs.User) (width 0.12))
   (fp_line (start -6.8 -1.13) (end 6.8 -1.13) (layer Dwgs.User) (width 0.12))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/TE_1-292303-1-e-3d.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/TE_1-292303-1-e-3d.stp
     (offset (xyz 0 4.13 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

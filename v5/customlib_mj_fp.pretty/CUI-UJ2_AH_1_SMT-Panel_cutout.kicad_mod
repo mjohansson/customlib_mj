@@ -23,7 +23,7 @@
   (fp_arc (start -5.75 -2) (end -7.25 -2) (angle -90) (layer Dwgs.User) (width 0.12))
   (fp_arc (start 5.75 -2) (end 5.75 -0.5) (angle -90) (layer Dwgs.User) (width 0.12))
   (fp_arc (start 5.75 -6.1) (end 7.25 -6.1) (angle -90) (layer Dwgs.User) (width 0.12))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/CUI_DEVICES_UJ2-AH-1-SMT.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/CUI_DEVICES_UJ2-AH-1-SMT.step
     (offset (xyz 0 0 -15))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

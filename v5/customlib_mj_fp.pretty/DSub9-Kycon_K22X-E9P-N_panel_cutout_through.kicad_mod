@@ -24,7 +24,7 @@
   (fp_arc (start -14.5 -0.9) (end -15.5 -0.9) (angle -90) (layer Edge.Cuts) (width 0.12))
   (fp_arc (start 14.5 -0.9) (end 14.5 0.1) (angle -90) (layer Edge.Cuts) (width 0.12))
   (fp_arc (start 14.5 -11.6) (end 15.5 -11.6) (angle -90) (layer Edge.Cuts) (width 0.12))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/K22X-E9P-N.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/K22X-E9P-N.step
     (offset (xyz 0 6.275 -0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

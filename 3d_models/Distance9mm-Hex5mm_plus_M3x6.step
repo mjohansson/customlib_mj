@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-  '/home/mjoh/projects/stm32/projects/SolderingStation/mech/hex9mm.step'
+  '.Distance9mm-Hex5mm_plus_M3x6.step'
   ,'2020-05-22T17:47:31',('Author'),(''),
   'Open CASCADE STEP processor 7.3','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));

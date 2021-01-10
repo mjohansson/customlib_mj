@@ -47,7 +47,7 @@
   (pad "" np_thru_hole circle (at 12.2 -32) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -12.2 32) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 12.2 32) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/CUI_DEVICES_CES-703116-28PM_fasteners_assembly.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/CUI_DEVICES_CES-703116-28PM_fasteners_assembly.step
     (offset (xyz 15.5 -35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

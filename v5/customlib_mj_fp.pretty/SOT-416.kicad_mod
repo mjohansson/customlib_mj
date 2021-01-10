@@ -32,7 +32,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
-  (model ${KIPRJMOD}/../3d_models/SOT-416.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/SOT-416.step
     (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

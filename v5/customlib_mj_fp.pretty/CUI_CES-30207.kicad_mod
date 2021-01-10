@@ -11,7 +11,7 @@
   (fp_line (start 10 5) (end 10 -5) (layer F.SilkS) (width 0.2))
   (fp_arc (start 0 -5) (end 10 -5) (angle -180) (layer F.SilkS) (width 0.2))
   (fp_arc (start 0 5) (end -10 5) (angle -180) (layer F.SilkS) (width 0.2))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/CUI_CES-30207-158L120-67.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/CUI_CES-30207-158L120-67.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

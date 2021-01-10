@@ -43,7 +43,7 @@
   (pad 2 thru_hole circle (at 2.54 -2.54) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 -2.54) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/SMA_Molex_73251-2200_Horizontal.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/SMA_Molex_73251-2200_Horizontal.stp
     (offset (xyz 0 13.5 6.4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

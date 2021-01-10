@@ -22,7 +22,7 @@
   (fp_line (start -1.4 -0.9) (end 1.4 -0.9) (layer F.CrtYd) (width 0.05))
   (pad 2 smd rect (at 0.9 0) (size 0.8 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.9 0) (size 0.8 0.7) (layers F.Cu F.Paste F.Mask))
-  (model /home/mjoh/projects/Arduino_AVR_misc/Prevas_julkort_2018/hw/3d_models/Green_0603_sidelooking_LED.step
+  (model ${KICUSTOMLIB_DIR}/3d_models/Green_0603_sidelooking_LED.step
     (offset (xyz 0.45 -0.82 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

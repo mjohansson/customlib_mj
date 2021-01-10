@@ -125,7 +125,7 @@
   (pad "" np_thru_hole circle (at -34 -13) (size 5.5 5.5) (drill 5.5) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 34 14.3) (size 5.5 5.5) (drill 5.5) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -34 14.3) (size 5.5 5.5) (drill 5.5) (layers *.Cu *.Mask))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/NHD-3.12-25664UCxx.STEP
+  (model ${KICUSTOMLIB_DIR}/3d_models/NHD-3.12-25664UCxx.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

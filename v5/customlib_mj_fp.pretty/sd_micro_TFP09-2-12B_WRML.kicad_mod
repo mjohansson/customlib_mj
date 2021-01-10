@@ -41,12 +41,12 @@
     (solder_mask_margin 0.1))
   (pad 13 smd rect (at -7.9 -0.4) (size 1.5 2.2) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.1))
-  (model :PROJ3DMOD:Micro_SD_socket-112J-TXAR-R_C_1-1.wrl
+  (model ${KICUSTOMLIB_DIR}/3d_models/Micro_SD_socket-112J-TXAR-R_C_1-1.wrl
     (offset (xyz -1 10.5 0))
     (scale (xyz 393.7 393.7 393.7))
     (rotate (xyz -90 0 180))
   )
-  (model ${KIPRJMOD}/../3d_models/Micro_SD_socket-112J-TXAR-R_C_1-1.wrl
+  (model :PROJ3DMOD:Micro_SD_socket-112J-TXAR-R_C_1-1.wrl
     (offset (xyz -1 10.5 0))
     (scale (xyz 393.7 393.7 393.7))
     (rotate (xyz -90 0 180))

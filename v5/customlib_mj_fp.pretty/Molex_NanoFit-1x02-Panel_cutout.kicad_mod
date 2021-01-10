@@ -24,7 +24,7 @@
   (fp_line (start 3 -7.1) (end 3 -4) (layer Edge.Cuts) (width 0.12))
   (fp_line (start 3 -4) (end 3.8 -4) (layer Edge.Cuts) (width 0.12))
   (fp_line (start 3.8 -4) (end 3.8 0) (layer Edge.Cuts) (width 0.12))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/Molex_NanoFit-1x02_receptacle-1053071202.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/Molex_NanoFit-1x02_receptacle-1053071202.stp
     (offset (xyz 0 1.74 -1.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

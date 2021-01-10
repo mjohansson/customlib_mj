@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/home/mjoh/projects/stm32/projects/SolderingStation/mech/FM_telescope_
+'./FM_telescope_
 antenna_screwtype_45cm_pivot.stp','2020-08-21T20:52:38',('Author'),(''),
   'Open CASCADE STEP processor 7.3','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));

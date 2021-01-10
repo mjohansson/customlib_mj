@@ -59,7 +59,7 @@
   (pad 9 smd roundrect (at -3.81 -1.26 355) (size 2 0.5) (layers F.SilkS) (roundrect_rratio 0.25))
   (pad 9 smd roundrect (at -3.81 1.28 355) (size 2 0.5) (layers F.SilkS) (roundrect_rratio 0.25))
   (pad 9 smd roundrect (at -3.81 -3.8 355) (size 2 0.5) (layers F.SilkS) (roundrect_rratio 0.25))
-  (model /home/mjoh/projects/stm32/projects/customlib_mj/3d_models/Amphenol_C707_10M006_052_2.stp
+  (model ${KICUSTOMLIB_DIR}/3d_models/Amphenol_C707_10M006_052_2.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
