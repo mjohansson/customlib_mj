@@ -404,6 +404,24 @@ D Panel cut-out for Schaffner FN283-1-06 AC-input jack w. on/off switch & EMI-fi
 K Schaffner FN283 panel cutout
 $ENDCMP
 #
+$CMP Fan_4pin
+D Fan, tacho output, PWM input, 4-pin connector
+K Fan Motor tacho PWM
+F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+$ENDCMP
+#
+$CMP Fan_CPU_4pin
+D CPU Fan, tacho output, PWM input, 4-pin connector
+K Fan Motor tacho PWM
+F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+$ENDCMP
+#
+$CMP Fan_Tacho_PWM
+D Fan, tacho output, PWM input, 4-pin connector
+K Fan Motor tacho PWM
+F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+$ENDCMP
+#
 $CMP Ferrite_Bead_Small
 D Ferrite bead, small symbol
 K L ferrite bead inductor filter
