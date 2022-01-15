@@ -1,0 +1,18 @@
+(module FFC_mech_14p_50mm_folded_x2 (layer F.Cu) (tedit 5F270319)
+  (descr "Mechanical representation of a 14-pin FFC, 50mm long, folded twice")
+  (fp_text reference REF** (at 2 3) (layer F.Fab) hide
+    (effects (font (size 1.2 0.8) (thickness 0.16)))
+  )
+  (fp_text value Mech_FFC_14p_50mm_folded_x2 (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (fp_line (start 0 3.75) (end 0 -3.75) (layer F.Fab) (width 0.12))
+  (fp_line (start 10 3.75) (end 0 3.75) (layer F.Fab) (width 0.12))
+  (fp_line (start 10 -3.75) (end 10 3.75) (layer F.Fab) (width 0.12))
+  (fp_line (start 0 -3.75) (end 10 -3.75) (layer F.Fab) (width 0.12))
+  (model ${KICUSTOMLIB_DIR}/3d_models/FFC_14p_50mm_folded_x2.stp
+    (offset (xyz 0 0 0.35))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

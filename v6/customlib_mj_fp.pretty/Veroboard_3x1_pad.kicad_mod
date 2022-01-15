@@ -1,0 +1,12 @@
+(module Veroboard_3x1_pad (layer F.Cu) (tedit 5EC7DAAF)
+  (descr "Veroboard 1x3 strip, single-sided")
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.2 0.8) (thickness 0.16)))
+  )
+  (fp_text value Veroboard_3x1_pad (at 0 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -2.54 0) (size 1.7 1.7) (drill 1.1) (layers *.Mask F.Cu))
+  (pad 1 thru_hole rect (at 0 0) (size 7.22 2.14) (drill 1.1) (layers *.Mask F.Cu))
+  (pad 1 thru_hole circle (at 2.54 0) (size 1.7 1.7) (drill 1.1) (layers *.Mask F.Cu))
+)

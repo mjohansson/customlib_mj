@@ -1,0 +1,13 @@
+(module Hole3.2mm_NP (layer F.Cu) (tedit 5A370215)
+  (tags "Mounting hole, 3.2mm, NP")
+  (fp_text reference REF** (at 0 2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Hole3.2mm_NP (at 0 -2.75) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 1.5 0) (layer B.CrtYd) (width 0.15))
+  (fp_circle (center 0 0) (end 1.5 0) (layer F.CrtYd) (width 0.15))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.001))
+)
