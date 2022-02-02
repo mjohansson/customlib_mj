@@ -1,14 +1,19 @@
-(module LB_I4R_A-4mm_banana_socket_panelmnt (layer F.Cu) (tedit 5F7CCD62)
-  (fp_text reference REF** (at 0 -5) (layer F.SilkS) hide
+(footprint "LB_I4R_A-4mm_banana_socket_panelmnt" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61EE22F6)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -5) (layer "F.SilkS") hide
     (effects (font (size 1.2 0.8) (thickness 0.16)))
+    (tstamp 38b8e048-8ae7-4914-85e3-21d11b35d3aa)
   )
-  (fp_text value LB_I4R_A-4mm_banana_socket_panelmnt (at 0 4.5) (layer F.Fab)
+  (fp_text value "LB_I4R_A-4mm_banana_socket_panelmnt" (at 0 4.5) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7c406297-a971-4bf4-9b67-d46489ccd020)
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 8.3 8.3) (drill 8.3) (layers *.Cu *.Mask))
-  (model ${KICUSTOMLIB_DIR}/3d_models/LB_I4R_A-black.stp
+  (pad "" np_thru_hole circle (at 0 0) (size 8.3 8.3) (drill 8.3) (layers *.Cu *.Mask) (tstamp b390641c-4c2a-4f3b-b7c8-19ffe7c5c0ec))
+  (model "${KICUSTOMLIB_DIR}/3d_models/4mmBanana_panel_with_QC.step"
     (offset (xyz 0 0 -20.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
+    (rotate (xyz 180 0 0))
   )
 )
